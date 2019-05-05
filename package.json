@@ -1,0 +1,26 @@
+{
+  "name": "www-docs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Doc site for arcblock",
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArcBlock/www-docs.git"
+  },
+  "keywords": [],
+  "author": "wangshijun <wangshijun2010@gmail.com> (http://github.com/wangshijun)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArcBlock/www-docs/issues"
+  },
+  "homepage": "https://github.com/ArcBlock/www-docs#readme",
+  "dependencies": {
+    "@arcblock/gatsby-config": "^3.57.0",
+    "gatsby": "2.3.23"
+  }
+}

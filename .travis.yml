@@ -1,0 +1,14 @@
+sudo: false
+language: node_js
+node_js:
+  - '10'
+git:
+  submodules: false
+branches:
+  only:
+  - master
+before_script: make travis
+script: make deploy
+env:
+  global:
+    secure: abXbuu0MYtYt4FtOGGEuEFBin3snkKJX7DbV0C6bhwoZIZ/LOhOFyLSeRx9Q6+p8EfL0GmuEDSqK5fLABnwQd5UHWP8eW6mmWMNcVSB7A0uvvMVskCfQ8aky6IAEQwUnXlCdNTUgBGDe+bU0j4bYFpMxyRzvUoC76uSx9Ty8ZcpdCzZmg/pjGRZWQT2imgrSmIsQ69/4uQ2mHQWm+20hS4Es13qTBRjRPIcHc75fYRvGnPoJZc7guRDf1AKGbhH4uAyTpy+iESyKUjUY7xmC7kumJqkoNE2w5DjBGyIfZiUSU65bQ6YqCM9gNWZ9Angx7AyIwkOqqLOO5rY4cG0EuV5Z8p7Ne+VwZMp4tOxOBVr4jD95oz0KRCXE9yl9ZpPmFoQOK12SamgSCnv5S5Xjmt5lN8mT0mRL4DJ2cnLk+9Ewa2TaJTw9aoeYxKj1VljUuDybHi2Ahc7n/Q05qq1mGcEsjw8jdw+CFBepXH8VIUJbA38cPD9YuKiRm91p7ty5cqdQTawiRodn2OzSdiafsCcU7Z5b9i1deJUG6jOdhbxkALlbs74xvi2Pq+XKVvy3oWyGHD6FsqLO0tSYP0T6ikVfmltg+2Qz2EBCoANvbtX9ZNBE1qkPUusBXr9oWVdAKUBV6HaNI85rGY4vB46BjoDKXNn9Mryo/lpPhj2VPU8=
