@@ -1,5 +1,7 @@
 # www-docs
 
+> Deployed to `https://docs.arcblock.io`
+
 Documentation site for ArcBlock
 
 ## Usage
