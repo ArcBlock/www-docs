@@ -13,14 +13,15 @@ all: build
 init:
 	@echo "Install npm dependencies required for this repo..."
 	@npm install -g gatsby-cli yarn
-	@yarn
+	@yarn --force
 
 clean:
 	@rm -rf public && rm -rf .cache
 	@echo "All pages are cleaned."
 
-deploy:
-	@.makefiles/trigger_main_build.sh
+deploy: build
+	@echo "Building and publishing the documenation..."
+	@aws s3 sync ./docs s3://docs.arcblock.io/ --region us-west-2 --profile prod
 
 run:
 	@yarn dev
