@@ -9,23 +9,23 @@
   dependencies:
     lodash "^4.17.10"
 
-"@arcblock/gatsby-config@^3.57.0":
-  version "3.57.0"
-  resolved "https://registry.npmjs.org/@arcblock/gatsby-config/-/gatsby-config-3.57.0.tgz#e72316339c219734515a8042784882213c5c5601"
-  integrity sha512-H4Ac/MwyUJwm7E6o9uVhA8Vy53r8Dnrg9LIwvax38/ffZzTRgVC/AOjkIl1qmGKiZU5Yd5RLquf3umP6iVQu9w==
+"@arcblock/gatsby-config@^3.59.0":
+  version "3.59.0"
+  resolved "https://registry.npmjs.org/@arcblock/gatsby-config/-/gatsby-config-3.59.0.tgz#24ba2eb1c2ba011c1d782c2f22261922de2af252"
+  integrity sha512-Lr3NRmuH7NbmaSCo+JwqgHp73rH0U90G653u5pH4lkmUXrimAiBUiofKM/9m05ugY+QeXz3bLEKQRcD2Uooe6g==
   dependencies:
     "@arcblock/gatsby-awesome-pagination" "^0.3.4"
     "@arcblock/gatsby-remark-generic-extensions" "^3.31.0"
-    "@arcblock/gatsby-theme" "^3.57.0"
+    "@arcblock/gatsby-theme" "^3.58.0"
     "@arcblock/gatsby-transformer-remark" "^3.38.0"
     "@arcblock/remark-include" "^3.31.0"
     "@svgr/webpack" "^4.1.0"
     "@xmark/core" "^0.11.0"
-    "@xmark/theme-landing-page" "^0.11.4"
+    "@xmark/theme-landing-page" "^0.11.8"
     "@xmark/theme-shower-ribbon" "^0.11.0"
     "@xmark/transform-class-extension" "^0.11.0"
     "@xmark/transform-gatsby-remark" "^0.11.0"
-    "@xmark/transform-landing-page" "^0.11.4"
+    "@xmark/transform-landing-page" "^0.11.8"
     "@xmark/transform-shower" "^0.11.0"
     "@xmark/transform-wrap-headings" "^0.11.0"
     capitalize "^2.0.0"
@@ -60,10 +60,10 @@
     remark-attr "0.8.0"
     remark-generic-extensions "^1.4.0"
 
-"@arcblock/gatsby-theme@^3.57.0":
-  version "3.57.0"
-  resolved "https://registry.npmjs.org/@arcblock/gatsby-theme/-/gatsby-theme-3.57.0.tgz#a5d6313c9a9f885228455e458cd20fd29978cf23"
-  integrity sha512-ixx7Qmk9V6DzKijXpYE3ZEvMInAdv4HPkRVW0VmEXjqPbGQlRix56NIU0FVfebK9bF7hjhQdGXRdP6ubI/OIlg==
+"@arcblock/gatsby-theme@^3.58.0":
+  version "3.58.0"
+  resolved "https://registry.npmjs.org/@arcblock/gatsby-theme/-/gatsby-theme-3.58.0.tgz#fcdcd05257ae26b456a5df5fd03d6216ea560525"
+  integrity sha512-00aHHpYvEhQmiexAuPJs9LK9WMDA20PpMrMR+9l1s4Ggr8v93zs+kxSjO6ITViMfPJrM6/9S/Iy7LfZ2ooCwIw==
   dependencies:
     "@material-ui/core" "3.9.2"
     "@material-ui/icons" "^3.0.2"
@@ -1457,10 +1457,10 @@
     remark-attr "^0.8.3"
     remark-generic-extensions "^1.4.0"
 
-"@xmark/theme-landing-page@^0.11.4":
-  version "0.11.4"
-  resolved "https://registry.npmjs.org/@xmark/theme-landing-page/-/theme-landing-page-0.11.4.tgz#9cf9746d4e8d43d2474a6271260e831ca11f2264"
-  integrity sha512-FEflH9PAno4TU80QMtBayunx3oAimjJvFGgL9TS1mbORieADkcgcUt82kzKmDXLiP64/i2LhkataTuau57xoyw==
+"@xmark/theme-landing-page@^0.11.8":
+  version "0.11.8"
+  resolved "https://registry.npmjs.org/@xmark/theme-landing-page/-/theme-landing-page-0.11.8.tgz#395641601f3d52dbe1acc748a292d5b7ec432c5a"
+  integrity sha512-CNKRQgARkp7lXOkKa5vznxqx9/jN4TN+AAUSnds7NgThXSJOkRuRF9hbIXa7E93nX6eflJvTSKvg6qm/o/88pQ==
 
 "@xmark/theme-shower-ribbon@^0.11.0":
   version "0.11.0"
@@ -1486,10 +1486,10 @@
     debug "^4.1.1"
     hast-util-select "^3.0.0"
 
-"@xmark/transform-landing-page@^0.11.4":
-  version "0.11.4"
-  resolved "https://registry.npmjs.org/@xmark/transform-landing-page/-/transform-landing-page-0.11.4.tgz#8ba72f5644ad6f4ff4d08e841d956d490f9a3938"
-  integrity sha512-h8hwYD5jPICqbIBlTs9OSuusFb9WjVhM98aF3fYHMeWqLewF1AXgRvG4E78lgwyRnoaztzHfzMLkDaRaExC+bg==
+"@xmark/transform-landing-page@^0.11.8":
+  version "0.11.8"
+  resolved "https://registry.npmjs.org/@xmark/transform-landing-page/-/transform-landing-page-0.11.8.tgz#9a015e0ebcf577c7ddcf14d83e3f1d66853c2813"
+  integrity sha512-8Q93zy1bI3/GSp6gCDDxM6zCOSbbAWpuHavIaPq2Moegv/gLPQUV2wpttjNqxdvgBIu+l1D/BANN7k7NhV+vzA==
   dependencies:
     "@xmark/transform-gatsby-remark" "^0.11.0"
     "@xmark/util" "^0.11.0"
