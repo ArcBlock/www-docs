@@ -21,7 +21,7 @@ clean:
 
 deploy: build
 	@echo "Building and publishing the documenation..."
-	@aws s3 sync ./docs s3://docs.arcblock.io/ --region us-west-2 --profile prod
+	@aws s3 sync ./public s3://docs.arcblock.io/ --region us-west-2 --profile prod
 
 run:
 	@yarn dev
