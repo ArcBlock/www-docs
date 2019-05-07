@@ -32,8 +32,8 @@ Browse the latest developer documentation including API reference, articles, and
 - [JS SDK](/forge/sdks/javascript)
 - [Elixir SDK](/forge/sdks/elixir)
 - [Java SDK](/forge/sdks/java)
-- [GraphQLClient Example](https://github.com/ArcBlock/forge-js/tree/master/packages/graphql-client/examples)
-- [GRpcClient Example](https://github.com/ArcBlock/forge-js/tree/master/packages/grpc-client/examples)
+- [GraphQLClient Example](https://github.com/ArcBlock/forge-js/tree/master/packages/graphql-client/examples){target="_blank"}
+- [GRpcClient Example](https://github.com/ArcBlock/forge-js/tree/master/packages/grpc-client/examples){target="_blank"}
 
 ## ABT Network {.section .section--link-list}
 
@@ -49,17 +49,17 @@ Browse the latest developer documentation including API reference, articles, and
 
 !ContentIcon[cubes](#4a4a4a){.section__icon bg=false}
 
-- [OCAP Documentation](http://ocap-docs.arcblock.io)
-- [JS SDK](https://github.com/ArcBlock/ocap-javascript-sdk/tree/master/packages/ocap-js)
-- [Android SDK](https://github.com/ArcBlock/arcblock-android-sdk)
-- [iOS SDK](https://github.com/ArcBlock/arcblock-ios-sdk)
-- [React Starter](https://github.com/ArcBlock/ocap-react-starter)
-- [React Native Starter](https://github.com/ArcBlock/ocap-react-native-starter)
-- [Vue Starter](https://github.com/ArcBlock/ocap-vue-starter)
-- [Node.js Starter](https://github.com/ArcBlock/ocap-express-starter)
-- [Android Starter](https://github.com/NateRobinson/SDKTempDemo)
-- [Python Example](https://github.com/tyrchen/ocap-example/tree/master/src/python)
-- [Elixir Example](https://github.com/tyrchen/ocap-example/tree/master/src/elixir)
+- [Documentation](http://ocap-docs.arcblock.io){target="_blank"}
+- [JS SDK](https://github.com/ArcBlock/ocap-javascript-sdk/tree/master/packages/ocap-js){target="_blank"}
+- [Android SDK](https://github.com/ArcBlock/arcblock-android-sdk){target="_blank"}
+- [iOS SDK](https://github.com/ArcBlock/arcblock-ios-sdk){target="_blank"}
+- [React Starter](https://github.com/ArcBlock/ocap-react-starter){target="_blank"}
+- [React Native Starter](https://github.com/ArcBlock/ocap-react-native-starter){target="_blank"}
+- [Vue Starter](https://github.com/ArcBlock/ocap-vue-starter){target="_blank"}
+- [Node.js Starter](https://github.com/ArcBlock/ocap-express-starter){target="_blank"}
+- [Android Starter](https://github.com/NateRobinson/SDKTempDemo){target="_blank"}
+- [Python Example](https://github.com/tyrchen/ocap-example/tree/master/src/python){target="_blank"}
+- [Elixir Example](https://github.com/tyrchen/ocap-example/tree/master/src/elixir){target="_blank"}
 
 ## Developer Tools {.section .section--link-list}
 
@@ -77,9 +77,9 @@ Browse the latest developer documentation including API reference, articles, and
 
 !ContentIcon[book](#4a4a4a){.section__icon bg=false}
 
-- [Forge Releases](https://github.com/ArcBlock/forge-release/releases)
-- [JS SDK Releases](https://github.com/ArcBlock/forge-js/blob/master/CHANGELOG.md)
-- [Python SDK Releases](https://github.com/ArcBlock/forge-python-sdk/blob/master/CHANGELOG.md)
+- [Forge Releases](https://github.com/ArcBlock/forge-release/releases){target="_blank"}
+- [JS SDK Releases](https://github.com/ArcBlock/forge-js/blob/master/CHANGELOG.md){target="_blank"}
+- [Python SDK Releases](https://github.com/ArcBlock/forge-python-sdk/blob/master/CHANGELOG.md){target="_blank"}
 
 ## Resources {.section .section--link-list}
 
