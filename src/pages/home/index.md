@@ -10,17 +10,45 @@ disableHeader: false
 darkHeader: false
 ---
 
-## ArcBlock Developer Documentation {.section .section--icon-hero .section--inverted .section--centered backgroundColor="#222222f2"}
+## ArcBlock Developer Documentation {.section .section--icon-hero .section--image-background .section--inverted .section--centered backgroundColor="#222222"}
 
-!ContentIcon[file-alt](#ffffff){.section__icon bg=false fontSize=50}
-!ContentIcon[code](#ffffff){.section__icon bg=false fontSize=50}
-!ContentIcon[tools](#ffffff){.section__icon bg=false fontSize=50}
+!ContentIcon[book](#ffffff){.section__icon bg=false fontSize=40}
+!ContentIcon[code](#ffffff){.section__icon bg=false fontSize=40}
+!ContentIcon[wrench](#ffffff){.section__icon bg=false fontSize=40}
 
 Browse the latest developer documentation including API reference, articles, and sample code.
 
+![](./images/docs-bg-mint.png)
+
+## {.section .section--card-list .section--card-list-mini columnSize=2 paddingTop="0px" paddingBottom="0px"}
+
+#### Forge Framework
+
+!ContentIcon[lightbulb-on](#222222)
+
+#### ABT Network
+
+!ContentIcon[chart-network](#222222)
+
+#### OCAP Service
+
+!ContentIcon[filter](#222222)
+
+#### Developer Tools
+
+!ContentIcon[laptop-code](#222222)
+
+#### Release Notes
+
+!ContentIcon[sticky-note](#222222)
+
+#### Resources
+
+!ContentIcon[books](#222222)
+
 ## Forge Framework {.section .section--link-list}
 
-!ContentIcon[toolbox](#4a4a4a){.section__icon bg=false}
+!ContentIcon[lightbulb-on](#4a4a4a){.section__icon bg=false}
 
 - [Forge Core](/forge/latest/)
 - [Concepts](/forge/latest/intro/concepts.html)
@@ -47,7 +75,7 @@ Browse the latest developer documentation including API reference, articles, and
 
 ## OCAP Service {.section .section--link-list}
 
-!ContentIcon[cubes](#4a4a4a){.section__icon bg=false}
+!ContentIcon[filter](#4a4a4a){.section__icon bg=false}
 
 - [OCAP Documentation](http://ocap-docs.arcblock.io)
 - [JS SDK](https://github.com/ArcBlock/ocap-javascript-sdk/tree/master/packages/ocap-js)
@@ -63,7 +91,7 @@ Browse the latest developer documentation including API reference, articles, and
 
 ## Developer Tools {.section .section--link-list}
 
-!ContentIcon[tools](#4a4a4a){.section__icon bg=false}
+!ContentIcon[laptop-code](#4a4a4a){.section__icon bg=false}
 
 - [Forge CLI](/forge/latest/tools/forge_cli.html)
 - [Forge Web](/forge/latest/tools/forge_web.html)
@@ -73,9 +101,9 @@ Browse the latest developer documentation including API reference, articles, and
 - [OCAP Playground](https://ocap.arcblock.io)
 - [OCAP Playbook](https://ocap.arcblock.io/playbooks)
 
-## Release Note {.section .section--link-list}
+## Release Notes {.section .section--link-list}
 
-!ContentIcon[book](#4a4a4a){.section__icon bg=false}
+!ContentIcon[sticky-note](#4a4a4a){.section__icon bg=false}
 
 - [Forge Releases](https://github.com/ArcBlock/forge-release/releases)
 - [JS SDK Releases](https://github.com/ArcBlock/forge-js/blob/master/CHANGELOG.md)
@@ -83,7 +111,7 @@ Browse the latest developer documentation including API reference, articles, and
 
 ## Resources {.section .section--link-list}
 
-!ContentIcon[box-full](#4a4a4a){.section__icon bg=false}
+!ContentIcon[books](#4a4a4a){.section__icon bg=false}
 
 - [GitHub](https://github.com/ArcBlock){target="_blank"}
 - [WhitePaper](https://www.arcblock.io/en/whitepaper){target="_blank"}
