@@ -22,12 +22,10 @@ Browse the latest developer documentation including API reference, articles, and
 
 !ContentIcon[toolbox](#4a4a4a){.section__icon bg=false}
 
-- [Forge Core](/forge/latest/)
 - [Concepts](/forge/latest/intro/concepts.html)
-- [Architecture](/forge/latest/arch/overview.html)
 - [Transactions](/forge/latest/txs/)
-- [RPC](/forge/latest/core/rpc.html)
 - [Configuration](/forge/latest/core/configuration.html)
+- [RPC](/forge/latest/core/rpc.html)
 - [Python SDK](/forge/latest/sdk/python.html)
 - [JS SDK](/forge/latest/sdk/javascript.html)
 - [Elixir SDK](/forge/latest/sdk/elixir.html)
