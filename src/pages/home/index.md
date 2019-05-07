@@ -25,13 +25,13 @@ Browse the latest developer documentation including API reference, articles, and
 - [Forge Core](/forge/latest/)
 - [Concepts](/forge/latest/intro/concepts.html)
 - [Architecture](/forge/latest/arch/overview.html)
-- [Transaction](/forge/latest/txs/)
-- [RPC](/forge/latest/rpc/chain.html)
-- [Configuration](/forge/latest/rpc/chain.html)
-- [Python SDK](/forge/sdks/python)
-- [JS SDK](/forge/sdks/javascript)
-- [Elixir SDK](/forge/sdks/elixir)
-- [Java SDK](/forge/sdks/java)
+- [Transactions](/forge/latest/txs/)
+- [RPC](/forge/latest/core/rpc.html)
+- [Configuration](/forge/latest/core/configuration.html)
+- [Python SDK](/forge/latest/sdk/python.html)
+- [JS SDK](/forge/latest/sdk/javascript.html)
+- [Elixir SDK](/forge/latest/sdk/elixir.html)
+- [Java SDK](/forge/latest/sdk/java.html)
 - [GraphQLClient Example](https://github.com/ArcBlock/forge-js/tree/master/packages/graphql-client/examples){target="_blank"}
 - [GRpcClient Example](https://github.com/ArcBlock/forge-js/tree/master/packages/grpc-client/examples){target="_blank"}
 
