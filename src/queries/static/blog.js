@@ -16,7 +16,12 @@ export default function LatestPostStub() {
           }
         }
       `}
-      render={() => <p>This is just a query stub, should be rendered on page</p>}
+      render={() => (
+        <p>
+          This is just a query stub, should not be rendered on page, if you are seeing this on page,
+          there must be something wrong!
+        </p>
+      )}
     />
   );
 }

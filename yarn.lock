@@ -9,14 +9,14 @@
   dependencies:
     lodash "^4.17.10"
 
-"@arcblock/gatsby-config@^3.59.0":
-  version "3.59.0"
-  resolved "https://registry.npmjs.org/@arcblock/gatsby-config/-/gatsby-config-3.59.0.tgz#24ba2eb1c2ba011c1d782c2f22261922de2af252"
-  integrity sha512-Lr3NRmuH7NbmaSCo+JwqgHp73rH0U90G653u5pH4lkmUXrimAiBUiofKM/9m05ugY+QeXz3bLEKQRcD2Uooe6g==
+"@arcblock/gatsby-config@^3.63.0":
+  version "3.63.0"
+  resolved "https://registry.npmjs.org/@arcblock/gatsby-config/-/gatsby-config-3.63.0.tgz#41d592b2626d74cbd1e9f1ca9f181df156c987c9"
+  integrity sha512-S5JmDXNSh5VLExCpAhTO87lVlcTYjR1hNtd3uqKGDuYZirYC2vevuxCwfGatb1GTaAV4ANTKiXup63A7Sr4WAQ==
   dependencies:
     "@arcblock/gatsby-awesome-pagination" "^0.3.4"
     "@arcblock/gatsby-remark-generic-extensions" "^3.31.0"
-    "@arcblock/gatsby-theme" "^3.58.0"
+    "@arcblock/gatsby-theme" "^3.62.0"
     "@arcblock/gatsby-transformer-remark" "^3.38.0"
     "@arcblock/remark-include" "^3.31.0"
     "@svgr/webpack" "^4.1.0"
@@ -60,10 +60,10 @@
     remark-attr "0.8.0"
     remark-generic-extensions "^1.4.0"
 
-"@arcblock/gatsby-theme@^3.58.0":
-  version "3.58.0"
-  resolved "https://registry.npmjs.org/@arcblock/gatsby-theme/-/gatsby-theme-3.58.0.tgz#fcdcd05257ae26b456a5df5fd03d6216ea560525"
-  integrity sha512-00aHHpYvEhQmiexAuPJs9LK9WMDA20PpMrMR+9l1s4Ggr8v93zs+kxSjO6ITViMfPJrM6/9S/Iy7LfZ2ooCwIw==
+"@arcblock/gatsby-theme@^3.62.0":
+  version "3.62.0"
+  resolved "https://registry.npmjs.org/@arcblock/gatsby-theme/-/gatsby-theme-3.62.0.tgz#18cf71d573ad611c1e48e0958f8bf82854bfc4a0"
+  integrity sha512-FRi9lMhHWcoBUg2c0UqzoK2W4Gz87/BX1QKDz7yTC4rxQR+smvqQMgieonkORCqCDYGv5muM8N+VehWXe2xMaQ==
   dependencies:
     "@material-ui/core" "3.9.2"
     "@material-ui/icons" "^3.0.2"
