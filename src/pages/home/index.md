@@ -22,7 +22,7 @@ Browse the latest developer documentation including API reference, articles, and
 
 ## {.section .section--card-list .section--card-list-mini columnSize=2 paddingTop="0px" paddingBottom="0px"}
 
-#### Forge Framework
+#### Forge SDK
 
 !ContentIcon[lightbulb-on](#222222)
 
@@ -46,7 +46,7 @@ Browse the latest developer documentation including API reference, articles, and
 
 !ContentIcon[books](#222222)
 
-## Forge Framework {.section .section--link-list}
+## Forge SDK {.section .section--link-list}
 
 !ContentIcon[lightbulb-on](#4a4a4a){.section__icon bg=false}
 
