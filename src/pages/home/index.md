@@ -97,6 +97,7 @@ Browse the latest developer documentation including API reference, articles, and
 - [ABT Chain Node](/forge/latest/tools/abt_chain_node.html)
 - [Forge Simulator](/forge/latest/tools/simulator.html)
 - [Forge Indexer](/forge/latest/tools/forge_indexer.html)
+- [Forge Workshop](/forge/latest/tools/forge_workshop.html)
 - [OCAP Playground](https://ocap.arcblock.io)
 - [OCAP Playbook](https://ocap.arcblock.io/playbooks)
 
