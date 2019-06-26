@@ -17,7 +17,7 @@ Browse the latest developer documentation including API reference, articles, and
 !ContentIcon[code](#ffffff){.section__icon bg=false fontSize=40}
 !ContentIcon[wrench](#ffffff){.section__icon bg=false fontSize=40}
 
-![](./images/docs-bg-mint.png)
+![](./images/docs-bg-mint.jpg)
 
 ## {.section .section--card-list .section--card-list-mini columnSize=2 paddingTop="0px" paddingBottom="0px"}
 
