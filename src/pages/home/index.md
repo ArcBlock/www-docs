@@ -11,11 +11,11 @@ darkHeader: false
 
 ## ArcBlock Developer Documentation {.section .section--icon-hero .section--image-background .section--inverted .section--centered backgroundColor="#222222"}
 
+Browse the latest developer documentation including API reference, articles, and sample code.
+
 !ContentIcon[book](#ffffff){.section__icon bg=false fontSize=40}
 !ContentIcon[code](#ffffff){.section__icon bg=false fontSize=40}
 !ContentIcon[wrench](#ffffff){.section__icon bg=false fontSize=40}
-
-Browse the latest developer documentation including API reference, articles, and sample code.
 
 ![](./images/docs-bg-mint.png)
 
