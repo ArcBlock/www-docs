@@ -104,7 +104,7 @@ darkHeader: false
 
 !ContentIcon[sticky-note](#4a4a4a){.section__icon bg=false}
 
-- [Forge 发布日志](https://github.com/ArcBlock/forge-release/releases){target="_blank"}
+- [Elixir SDK 发布日志](https://github.com/ArcBlock/forge-elixir-sdk/blob/master/CHANGELOG.md){target="_blank"}
 - [JS SDK 发布日志](https://github.com/ArcBlock/forge-js/blob/master/CHANGELOG.md){target="_blank"}
 - [Python SDK 发布日志](https://github.com/ArcBlock/forge-python-sdk/blob/master/CHANGELOG.md){target="_blank"}
 

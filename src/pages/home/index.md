@@ -104,7 +104,7 @@ Browse the latest developer documentation including API reference, articles, and
 
 !ContentIcon[sticky-note](#4a4a4a){.section__icon bg=false}
 
-- [Forge Releases](https://github.com/ArcBlock/forge-release/releases){target="_blank"}
+- [Elixir SDK Releases](https://github.com/ArcBlock/forge-elixir-sdk/blob/master/CHANGELOG.md){target="_blank"}
 - [JS SDK Releases](https://github.com/ArcBlock/forge-js/blob/master/CHANGELOG.md){target="_blank"}
 - [Python SDK Releases](https://github.com/ArcBlock/forge-python-sdk/blob/master/CHANGELOG.md){target="_blank"}
 
