@@ -49,14 +49,14 @@ Browse the latest developer documentation including API reference, articles, and
 
 !ContentIcon[lightbulb-on](#4a4a4a){.section__icon bg=false}
 
-- [Concepts](/forge/latest/intro/concepts.html)
-- [Transactions](/forge/latest/txs/)
-- [Configuration](/forge/latest/core/configuration.html)
-- [RPC](/forge/latest/core/rpc.html)
-- [Python SDK](/forge/latest/sdk/python.html)
-- [JS SDK](/forge/latest/sdk/javascript.html)
-- [Elixir SDK](/forge/latest/sdk/elixir.html)
-- [Java SDK](/forge/latest/sdk/java.html)
+- [Concepts](/en/docs/intro/concepts)
+- [Transactions](/en/docs/txs/)
+- [Configuration](/en/docs/core/configuration)
+- [RPC](/en/docs/core/rpc)
+- [Python SDK](/en/docs/sdk/python)
+- [JS SDK](/en/docs/sdk/javascript)
+- [Elixir SDK](/en/docs/sdk/elixir)
+- [Java SDK](/en/docs/sdk/java)
 - [dApp Starters](https://github.com/ArcBlock/forge-dapp-starters){target="_blank"}
 - [GraphQLClient Example](https://github.com/ArcBlock/forge-js/tree/master/packages/graphql-client/examples){target="_blank"}
 - [GRpcClient Example](https://github.com/ArcBlock/forge-js/tree/master/packages/grpc-client/examples){target="_blank"}
@@ -91,12 +91,12 @@ Browse the latest developer documentation including API reference, articles, and
 
 !ContentIcon[laptop-code](#4a4a4a){.section__icon bg=false}
 
-- [Forge CLI](/forge/latest/tools/forge_cli.html)
-- [Forge Web](/forge/latest/tools/forge_web.html)
-- [ABT Chain Node](/forge/latest/tools/abt_chain_node.html)
-- [Forge Simulator](/forge/latest/tools/simulator.html)
-- [Forge Indexer](/forge/latest/tools/forge_indexer.html)
-- [Forge Workshop](/forge/latest/tools/forge_workshop.html)
+- [Forge CLI](/en/docs/tools/forge_cli.html)
+- [Forge Web](/en/docs/tools/forge_web.html)
+- [ABT Chain Node](/en/docs/tools/abt_chain_node.html)
+- [Forge Simulator](/en/docs/tools/simulator.html)
+- [Forge Indexer](/en/docs/tools/forge_indexer.html)
+- [Forge Workshop](/en/docs/tools/forge_workshop.html)
 - [OCAP Playground](https://ocap.arcblock.io)
 - [OCAP Playbook](https://ocap.arcblock.io/playbooks)
 
