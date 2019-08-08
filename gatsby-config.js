@@ -1,6 +1,10 @@
-const path = require('path');
-const createConfig = require('@arcblock/gatsby-config/gatsby-config');
+const config = require('./config');
 
-module.exports = createConfig({
-  pagesPath: [path.resolve('./src/pages/')],
-});
+module.exports = {
+  plugins: [
+    {
+      resolve: require.resolve('@arcblock/gatsby-theme-docs'),
+      options: config,
+    },
+  ],
+};
