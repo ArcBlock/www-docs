@@ -24,7 +24,7 @@ deploy: build
 	@aws s3 sync ./public s3://docs.arcblock.io/ --region us-west-2 --profile prod
 
 run:
-	@yarn dev
+	@yarn start
 
 serve: build
 	@yarn serve
