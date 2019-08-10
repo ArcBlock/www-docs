@@ -9,27 +9,27 @@
   dependencies:
     lodash "^4.17.10"
 
-"@arcblock/gatsby-remark-extensions@^5.12.0":
-  version "5.12.0"
-  resolved "https://registry.npmjs.org/@arcblock/gatsby-remark-extensions/-/gatsby-remark-extensions-5.12.0.tgz#d30faac782c06487a7111bc264b101bbaea948bf"
-  integrity sha512-svrvxoJvOiAQUgXyKVzdhDJdjqp2XA35dlBDW79hLQU6v0+fkCyA3nE04DxqHCNhsWtxydwaV3/HF3wYjO1mhA==
+"@arcblock/gatsby-remark-extensions@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.npmjs.org/@arcblock/gatsby-remark-extensions/-/gatsby-remark-extensions-6.0.0.tgz#636a7e22b7e9ab8fecb46027942b9f7cc1d4a046"
+  integrity sha512-QCRwWAY6/hwtwXajgdfYbPhU34/LsxgWtzWRe9IUKQeImG8gGqCwU15E/Q7dhRXswgeqeYvrr00OegrFL+z00w==
   dependencies:
     lodash "^4.17.11"
     remark-attr "0.8.0"
     remark-containers "^1.1.0"
     remark-generic-extensions "^1.4.0"
 
-"@arcblock/gatsby-theme-docs@^5.12.0":
-  version "5.12.0"
-  resolved "https://registry.npmjs.org/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-5.12.0.tgz#40118bbe6515fb8fa2dc1fb21572c6583ab8bca6"
-  integrity sha512-O97KXAtx8vNKEeZgcLx7GNavF5Qjs0eLrUUXM6Jxey8ewDT8b9p+FkZ0pt6YHsxD7/5C+PM1rN0MYUS4s8hv5w==
+"@arcblock/gatsby-theme-docs@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.npmjs.org/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-6.0.0.tgz#d57ee0a4eebd20eef0565f230fac57f8bdf2fe05"
+  integrity sha512-DJ5mb9utlXTpLtp7beT/I+UKOaWTB0HVDA72ZhIjmyZFpD1vi0xk17YtnUK3PrfAJDPFu4Dzwsq+m6zYOK+sSA==
   dependencies:
     "@arcblock/gatsby-awesome-pagination" "^0.3.4"
-    "@arcblock/gatsby-remark-extensions" "^5.12.0"
-    "@arcblock/gatsby-transformer-remark" "^5.0.0"
-    "@arcblock/remark-include" "^5.12.0"
+    "@arcblock/gatsby-remark-extensions" "^6.0.0"
+    "@arcblock/gatsby-transformer-remark" "^6.0.0"
+    "@arcblock/remark-include" "^6.0.0"
     "@arcblock/ux" "^0.16.7"
-    "@arcblock/www" "^5.12.0"
+    "@arcblock/www" "^6.0.0"
     "@material-ui/core" "^4.3.0"
     "@material-ui/icons" "^4.2.1"
     "@mdx-js/mdx" "^1.1.0"
@@ -85,10 +85,10 @@
     striptags "^3.1.1"
     styled-components "^4.3.2"
 
-"@arcblock/gatsby-transformer-remark@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/@arcblock/gatsby-transformer-remark/-/gatsby-transformer-remark-5.0.0.tgz#3638c7f8deb5392e3ec9f0e0ea4aa3a30a8fe420"
-  integrity sha512-/4hb0y+GAwvQ5kGxPmG1hBLQWf+20Bu4eeFAMXKVKJzOkqU71uP09g29nHjIBZhjB16Y1EMIvIJSP8L3Wo0Ycg==
+"@arcblock/gatsby-transformer-remark@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.npmjs.org/@arcblock/gatsby-transformer-remark/-/gatsby-transformer-remark-6.0.0.tgz#cc6f243d3d23243518b8535209adf734a08085ef"
+  integrity sha512-BrcStVY0/M/oAmeqp8Tgbh6lCsC7a+ucpIS4W95/ZxBcy9vAEfaxuhpTd76YuQ5wc4JD2cOmJEtpFfi0Dk/8tw==
   dependencies:
     "@babel/runtime" "^7.0.0"
     bluebird "^3.5.0"
@@ -112,10 +112,10 @@
     unist-util-select "^1.5.0"
     unist-util-visit "^1.3.0"
 
-"@arcblock/remark-include@^5.12.0":
-  version "5.12.0"
-  resolved "https://registry.npmjs.org/@arcblock/remark-include/-/remark-include-5.12.0.tgz#c27dbe40500ffb8efe32e92863e3ac001c70cc50"
-  integrity sha512-cigNXNF+sA0qFS6zplSRmKemCgG/Kqrfjoi7R53gucqMVgNa+c/tavNbsBnfH2u14iBQEu0EUi2Lgez8VV3jlw==
+"@arcblock/remark-include@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.npmjs.org/@arcblock/remark-include/-/remark-include-6.0.0.tgz#2f98518647557b1e2858e167e2b99eed9df2a709"
+  integrity sha512-syVGHLI6ZVPLpYOZuVMm36M082B8NKKkEWq2YP+U8vFZJgQGdOgICZL8F1L4KvFSzypXOw99w+5lBOYRhqbmkQ==
   dependencies:
     vfile "^2.0.0"
 
@@ -138,10 +138,10 @@
     topojson-client "^3.0.0"
     versor "^0.0.4"
 
-"@arcblock/www@^5.12.0":
-  version "5.12.0"
-  resolved "https://registry.npmjs.org/@arcblock/www/-/www-5.12.0.tgz#4c803f64e30e6e503728539da8d3288ef8e1e740"
-  integrity sha512-oiN9Fw5jP+1L7iLcsRWPMsY1KMptcbWKTQ2L4w9YKb9QT3yHaclTDMVNTD/WIBilgI3dVOPJ9s/fJhUKDuJoFw==
+"@arcblock/www@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.npmjs.org/@arcblock/www/-/www-6.0.0.tgz#95d3df2b2d769c1c13977b050c7e2048a036bc6f"
+  integrity sha512-mqGqxQ/WbEuU1VshRIUehuqYV1z9TktTJrX6Pd73XPSyj9P9eRrbPi56fcjc0qwpMhibwN6YW+sqirmb8oKx1w==
   dependencies:
     "@arcblock/ux" "^0.16.7"
     "@material-ui/core" "4.1.1"
