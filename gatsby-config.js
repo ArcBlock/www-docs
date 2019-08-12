@@ -1,5 +1,6 @@
 require('dotenv').config();
 
+const fs = require('fs');
 const path = require('path');
 const { version } = require('./package.json');
 
@@ -14,6 +15,12 @@ const { version } = require('./package.json');
   }
 });
 
+// We only need BBL folder for now
+const acceleratorIgnore = fs
+  .readdirSync(path.resolve(__dirname, 'dependencies/accelerator/src'))
+  .filter(x => x !== 'bbl')
+  .map(x => path.resolve(__dirname, 'dependencies/accelerator/src', x));
+
 module.exports = {
   plugins: [
     {
@@ -23,6 +30,10 @@ module.exports = {
         sourceDirs: [
           path.resolve(__dirname, 'dependencies/forge-docs/src'),
           path.resolve(__dirname, 'dependencies/forge-tutorials/src'),
+          {
+            dir: path.resolve(__dirname, 'dependencies/accelerator/src'),
+            ignore: acceleratorIgnore,
+          },
           path.resolve(__dirname, 'src', 'pages'),
         ],
         siteMetadata: {
