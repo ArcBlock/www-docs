@@ -1,8 +1,4 @@
 ---
 gitRepo: "ArcBlock/www-docs"
 srcPath: "src/pages"
-categories:
-  starters:
-    title: "Starters"
-    link: "/starters"
-    basePath: "/"
+tabs:

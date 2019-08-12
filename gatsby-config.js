@@ -30,6 +30,7 @@ module.exports = {
         sourceDirs: [
           path.resolve(__dirname, 'dependencies/forge-docs/src'),
           path.resolve(__dirname, 'dependencies/forge-tutorials/src'),
+          path.resolve(__dirname, 'dependencies/forge-dapp-starters/docs'),
           {
             dir: path.resolve(__dirname, 'dependencies/accelerator/src'),
             ignore: acceleratorIgnore,
