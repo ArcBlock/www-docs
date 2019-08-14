@@ -19,17 +19,17 @@
     remark-containers "^1.1.0"
     remark-generic-extensions "^1.4.0"
 
-"@arcblock/gatsby-theme-docs@^6.4.0":
-  version "6.4.0"
-  resolved "https://registry.npmjs.org/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-6.4.0.tgz#93736d0a3938e7e1520f1c8aeae90f678217235e"
-  integrity sha512-lST75AZOFZR3OFTtn4koyLMpHqBe9agc3nqaR3kBRuRSGU57vLdCOkbw9HFNJTgs/gqS1VcWwuUafmKAZ0fkdA==
+"@arcblock/gatsby-theme-docs@^6.5.0":
+  version "6.5.0"
+  resolved "https://registry.npmjs.org/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-6.5.0.tgz#dcb54c97184e4f732a93fd1d9e5df4c7b95ef5a2"
+  integrity sha512-HrCpxx7Y1pVbDZBCWjlrLCHwYCnb7dGBevUQQ8maIwdwZm9XlmyjM+NBT8/W5tjXV5jeV5n3tH82qAajlEqZ0g==
   dependencies:
     "@arcblock/gatsby-awesome-pagination" "^0.3.4"
     "@arcblock/gatsby-remark-extensions" "^6.0.0"
     "@arcblock/gatsby-transformer-remark" "^6.0.0"
     "@arcblock/remark-include" "^6.0.0"
-    "@arcblock/ux" "^0.17.0"
-    "@arcblock/www" "^6.4.0"
+    "@arcblock/ux" "^0.18.0"
+    "@arcblock/www" "^6.5.0"
     "@material-ui/core" "^4.3.0"
     "@material-ui/icons" "^4.2.1"
     "@mdx-js/mdx" "^1.1.0"
@@ -120,11 +120,12 @@
   dependencies:
     vfile "^2.0.0"
 
-"@arcblock/ux@^0.17.0":
-  version "0.17.0"
-  resolved "https://registry.npmjs.org/@arcblock/ux/-/ux-0.17.0.tgz#1518c25130c8ac7e69f62ada3fd2855044965851"
-  integrity sha512-x7HSk1zRtR3Ys84PovE93Fs1K3s5yv6KihMS/F/kVjjJdqgHwuNLbwY0ekxp3fH7PGvB2svAAfcrOxSpY59myw==
+"@arcblock/ux@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.npmjs.org/@arcblock/ux/-/ux-0.18.0.tgz#b7970c2518334e23c9ab01e548d0ef4a64b7147f"
+  integrity sha512-hs+yFfKRzP9qHYGKCrYfLdoX5oCajRQQfMUTb6H8J7H3JD6GnmdTNvSGeUC+tvj0xiQvQeqlj5FR6k0b79l8dg==
   dependencies:
+    "@babel/plugin-syntax-dynamic-import" "^7.2.0"
     copy-to-clipboard "^3.2.0"
     d3-geo "^1.11.6"
     graphiql "^0.13.2"
@@ -139,12 +140,12 @@
     topojson-client "^3.0.0"
     versor "^0.0.4"
 
-"@arcblock/www@^6.4.0":
-  version "6.4.0"
-  resolved "https://registry.npmjs.org/@arcblock/www/-/www-6.4.0.tgz#5cde26bee322755b559d3e54523647d94cdcee16"
-  integrity sha512-U/NHUh4+t9cxOz1dg14vygbgM73yHArlIH8yWHQXJkCsVLkm1gVJm5mzmDFthXPVwlbnU+2H8Bg4u1z2zIT4qw==
+"@arcblock/www@^6.5.0":
+  version "6.5.0"
+  resolved "https://registry.npmjs.org/@arcblock/www/-/www-6.5.0.tgz#c80446fd98403a71a0c89821d91ca9481be12803"
+  integrity sha512-+Qff0tb19TwG9pnvSPj6PGivzwpqFrf6KohErmKijtwdVs/YJ1hr+RYCQXdoIanNxs7VsUCMSOlbj0bWzH2FxA==
   dependencies:
-    "@arcblock/ux" "^0.17.0"
+    "@arcblock/ux" "^0.18.0"
     "@material-ui/core" "4.1.1"
     "@material-ui/icons" "^3.0.2"
     axios "^0.19.0"
