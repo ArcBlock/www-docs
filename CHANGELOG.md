@@ -1,3 +1,6 @@
+## 0.36.2 (August 14, 2019)
+
+
 ## 0.36.0 (August 14, 2019)
 
 - chore: first doc mono repo building pipeline
