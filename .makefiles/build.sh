@@ -20,7 +20,7 @@ git submodule status
 
 
 ## step 2~6 should only be executed on master
-# if [ "$TRAVIS_PULL_REQUEST" = false ]; then
+if [ "$TRAVIS_PULL_REQUEST" = false ]; then
   ## 2. check for submodule status by updating dependency version files and run `git status`: DEPENDENCY_CHANGED
   echo "Check submodule status..."
   GIT_STATUS_SUBMODULE=`git status --short`
@@ -81,14 +81,14 @@ git submodule status
     touch $REPO_FILE
     echo "$REPO_VERSION" > $REPO_FILE
   done
-# fi
+fi
 
 ## 9. commit changes to files, only on master
-# if [ "$TRAVIS_PULL_REQUEST" = false ]; then
+if [ "$TRAVIS_PULL_REQUEST" = false ]; then
   echo "Commit dependency and version changes..."
   git remote remove origin
   git remote add origin "https://$GITHUB_TOKEN@github.com/$TRAVIS_REPO_SLUG.git"
   git status
   git commit -am 'update dependencies and bump version'
   git push origin master
-# fi
+fi
