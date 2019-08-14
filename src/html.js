@@ -14,7 +14,6 @@ export default class HTML extends React.Component {
         <head>
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <link rel="stylesheet" type="text/css" href="/flexboxgrid.min.css" />
           <link rel="stylesheet" type="text/css" href="/icons/css/all.css" />
           {this.props.headComponents}
         </head>

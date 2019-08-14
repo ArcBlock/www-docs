@@ -49,14 +49,14 @@ darkHeader: false
 
 !ContentIcon[lightbulb-on](#4a4a4a){.section__icon bg=false}
 
-- [概念](/forge/latest/intro/concepts.html)
-- [交易类型](/forge/latest/txs/)
-- [配置详解](/forge/latest/core/configuration.html)
-- [RPC](/forge/latest/core/rpc.html)
-- [Python SDK](/forge/latest/sdk/python.html)
-- [JS SDK](/forge/latest/sdk/javascript.html)
-- [Elixir SDK](/forge/latest/sdk/elixir.html)
-- [Java SDK](/forge/latest/sdk/java.html)
+- [概念](/zh/docs/intro/concepts)
+- [交易类型](/zh/docs/txs/)
+- [配置详解](/zh/docs/core/configuration)
+- [RPC](/zh/docs/core/rpc)
+- [Python SDK](/zh/docs/sdk/python)
+- [JS SDK](/zh/docs/sdk/javascript)
+- [Elixir SDK](/zh/docs/sdk/elixir)
+- [Java SDK](/zh/docs/sdk/java)
 - [dApp 种子项目](https://github.com/ArcBlock/forge-dapp-starters){target="_blank"}
 - [GraphQLClient 示例代码](https://github.com/ArcBlock/forge-js/tree/master/packages/graphql-client/examples){target="_blank"}
 - [GRpcClient 示例代码](https://github.com/ArcBlock/forge-js/tree/master/packages/grpc-client/examples){target="_blank"}
@@ -91,12 +91,12 @@ darkHeader: false
 
 !ContentIcon[laptop-code](#4a4a4a){.section__icon bg=false}
 
-- [Forge CLI](/forge/latest/tools/forge_cli.html)
-- [Forge Web](/forge/latest/tools/forge_web.html)
-- [ABT Chain Node](/forge/latest/tools/abt_chain_node.html)
-- [Forge Simulator](/forge/latest/tools/simulator.html)
-- [Forge Indexer](/forge/latest/tools/forge_indexer.html)
-- [Forge Workshop](/forge/latest/tools/forge_workshop.html)
+- [Forge CLI](/zh/docs/tools/forge_cli.html)
+- [Forge Web](/zh/docs/tools/forge_web.html)
+- [ABT Chain Node](/zh/docs/tools/abt_chain_node.html)
+- [Forge Simulator](/zh/docs/tools/simulator.html)
+- [Forge Indexer](/zh/docs/tools/forge_indexer.html)
+- [Forge Workshop](/zh/docs/tools/forge_workshop.html)
 - [OCAP Playground](https://ocap.arcblock.io)
 - [OCAP Playbook](https://ocap.arcblock.io/playbooks)
 

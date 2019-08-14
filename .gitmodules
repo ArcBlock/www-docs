@@ -1,0 +1,12 @@
+[submodule "dependencies/forge-docs"]
+	path = dependencies/forge-docs
+	url = git@github.com:ArcBlock/forge-docs.git
+[submodule "dependencies/forge-tutorials"]
+	path = dependencies/forge-tutorials
+	url = git@github.com:ArcBlock/forge-tutorials.git
+[submodule "dependencies/accelerator"]
+	path = dependencies/accelerator
+	url = git@github.com:ArcBlock/accelerator.git
+[submodule "dependencies/forge-dapp-starters"]
+	path = dependencies/forge-dapp-starters
+	url = git@github.com:ArcBlock/forge-dapp-starters.git
