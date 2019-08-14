@@ -8,29 +8,61 @@ build: clean init
 	@DEBUG=@arcblock/gatsby-config yarn build
 	@rm public/*.js.map
 
-all: build
+init: install dep
+	@echo "Initializing the repo..."
 
-init:
+travis-init: install dep
+	@echo "Initialize software required for travis (normally ubuntu software)"
+
+install:
+	@echo "Install software required for this repo..."
+	@npm install -g gatsby-cli netlify-cli yarn
+	@git submodule update --init
+
+dep:
 	@echo "Install npm dependencies required for this repo..."
-	@npm install -g gatsby-cli yarn
-	@yarn --force
+	@yarn
 
-clean:
-	@rm -rf public && rm -rf .cache
-	@echo "All pages are cleaned."
+pre-build: install dep clean prepare
+	@echo "Running scripts before the build..."
 
-deploy: build
-	@echo "Building and publishing the documenation..."
-	@aws s3 sync ./public s3://docs.arcblock.io/ --region us-west-2 --profile prod
+post-build:
+	@echo "Running scripts after the build is done..."
 
-run:
-	@yarn start
+all: pre-build build post-build
 
-serve: build
-	@yarn serve
+test:
+	@echo "Running test suites..."
 
-travis: init
+lint:
+	@echo "Linting the software..."
+	@yarn lint
+
+doc:
+	@echo "Building the documenation..."
+
+precommit: dep lint doc build test
+
+travis: precommit
 	@echo "Prepare travis build env"
 	@gem install travis -v 1.8.9
 
-.PHONY: all clean build run watch travis
+travis-deploy:
+	@echo "Deploy the software by travis"
+	@.makefiles/build.sh
+
+run: prepare
+	@echo "Running the software..."
+	@yarn start
+
+deploy:
+	@echo "Deploying the software..."
+	@netlify deploy
+
+sync: build
+	@echo "Building and publishing the documenation..."
+	@aws s3 sync ./public s3://docs.arcblock.io/ --region us-west-2 --profile prod
+
+include .makefiles/*.mk
+
+.PHONY: build init travis-init install dep pre-build post-build all test doc precommit travis clean watch run bump-version create-pr
