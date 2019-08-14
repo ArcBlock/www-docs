@@ -40,6 +40,7 @@ module.exports = {
         siteMetadata: {
           title: 'ArcBlock',
           subtitle: 'Documentation',
+          siteUrl: 'https://docs.arcblock.io',
           description: 'Forge SDK Documentation',
         },
         algoliaSearch: {
@@ -49,14 +50,14 @@ module.exports = {
           indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
         },
         navItems: [
-          {
-            title: 'Versions',
-            link: '/versions',
-            subPages: {
-              'https://github.com/ArcBlock': 'v0.36.1',
-              'https://www.arcblock.io': 'v0.35.0',
-            },
-          },
+          // {
+          //   title: 'Versions',
+          //   link: '/versions',
+          //   subPages: {
+          //     'https://github.com/ArcBlock': 'v0.36.1',
+          //     'https://www.arcblock.io': 'v0.35.0',
+          //   },
+          // },
           {
             title: 'Community',
             link: '/community',
