@@ -1,3 +1,7 @@
+## 0.37.3 (August 15, 2019)
+
+- bump doc theme version to support graph
+
 ## 0.37.2 (August 15, 2019)
 
 
