@@ -1,6 +1,6 @@
 {
   "name": "www-docs",
-  "version": "0.37.3",
+  "version": "0.37.4",
   "private": true,
   "description": "Doc site for arcblock",
   "scripts": {
