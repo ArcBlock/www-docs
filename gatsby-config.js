@@ -66,11 +66,18 @@ module.exports = {
               'https://www.arcblock.io': 'About',
               'https://gitter.im/ArcBlock/community': 'Gitter',
               'https://twitter.com/ArcBlock_io': 'Twitter',
-              'https://youtube.com/channel/UC0pEW_GOrMJ23l8QcrGdKSw': 'YouTube',
+              'https://www.youtube.com/channel/UCTEzIGHk71usPOLc2cYPYpQ': 'YouTube',
             },
           },
         ],
         extraPlugins: [],
+      },
+    },
+    // Speed up netlify build
+    {
+      resolve: 'gatsby-plugin-netlify-cache',
+      options: {
+        cachePublic: true,
       },
     },
   ],
