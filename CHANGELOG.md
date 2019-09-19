@@ -1,3 +1,9 @@
+## 0.38.0 (September 19, 2019)
+
+- chore: bump dependency version
+- chore: bump dependency version
+- fix: home page links
+
 ## 0.37.4 (August 15, 2019)
 
 
