@@ -44,6 +44,7 @@ module.exports = {
           description: 'Forge SDK Documentation',
         },
         algoliaSearch: {
+          enabled: true,
           appId: process.env.GATSBY_ALGOLIA_APP_ID,
           adminKey: process.env.GATSBY_ALGOLIA_ADMIN_KEY,
           searchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
