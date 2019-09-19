@@ -49,14 +49,14 @@ Browse the latest developer documentation including API reference, articles, and
 
 !ContentIcon[lightbulb-on](#4a4a4a){.section__icon bg=false}
 
-- [Concepts](/en/docs/intro/concepts)
-- [Transactions](/en/docs/txs/)
-- [Configuration](/en/docs/core/configuration)
-- [RPC](/en/docs/core/rpc)
-- [Python SDK](/en/docs/sdk/python)
-- [JS SDK](/en/docs/sdk/javascript)
-- [Elixir SDK](/en/docs/sdk/elixir)
-- [Java SDK](/en/docs/sdk/java)
+- [Concepts](/en/docs/intro)
+- [Transactions](/en/docs/concepts/transaction)
+- [Configuration](/en/docs/instruction/configuration)
+- [RPC](/en/docs/reference/rpc)
+- [Python SDK](/en/docs/instruction/sdk/python)
+- [JS SDK](/en/docs/instruction/sdk/javascript)
+- [Elixir SDK](/en/docs/instruction/sdk/elixir)
+- [Java SDK](/en/docs/instruction/sdk/java)
 - [dApp Starters](https://github.com/ArcBlock/forge-dapp-starters){target="_blank"}
 - [GraphQLClient Example](https://github.com/ArcBlock/forge-js/tree/master/packages/graphql-client/examples){target="_blank"}
 - [GRpcClient Example](https://github.com/ArcBlock/forge-js/tree/master/packages/grpc-client/examples){target="_blank"}

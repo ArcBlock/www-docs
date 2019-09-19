@@ -49,14 +49,14 @@ darkHeader: false
 
 !ContentIcon[lightbulb-on](#4a4a4a){.section__icon bg=false}
 
-- [概念](/zh/docs/intro/concepts)
-- [交易类型](/zh/docs/txs/)
-- [配置详解](/zh/docs/core/configuration)
-- [RPC](/zh/docs/core/rpc)
-- [Python SDK](/zh/docs/sdk/python)
-- [JS SDK](/zh/docs/sdk/javascript)
-- [Elixir SDK](/zh/docs/sdk/elixir)
-- [Java SDK](/zh/docs/sdk/java)
+- [概念](/zh/docs/intro)
+- [交易类型](/zh/docs/concepts/transaction)
+- [配置详解](/zh/docs/instruction/configuration)
+- [RPC](/zh/docs/reference/rpc)
+- [Python SDK](/zh/docs/instruction/sdk/python)
+- [JS SDK](/zh/docs/instruction/sdk/javascript)
+- [Elixir SDK](/zh/docs/instruction/sdk/elixir)
+- [Java SDK](/zh/docs/instruction/sdk/java)
 - [dApp 种子项目](https://github.com/ArcBlock/forge-dapp-starters){target="_blank"}
 - [GraphQLClient 示例代码](https://github.com/ArcBlock/forge-js/tree/master/packages/graphql-client/examples){target="_blank"}
 - [GRpcClient 示例代码](https://github.com/ArcBlock/forge-js/tree/master/packages/grpc-client/examples){target="_blank"}
