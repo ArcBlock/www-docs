@@ -38,10 +38,11 @@ module.exports = {
           path.resolve(__dirname, 'src', 'pages'),
         ],
         siteMetadata: {
-          title: 'ArcBlock',
-          subtitle: 'Documentation',
+          title: 'Documentation',
           siteUrl: 'https://docs.arcblock.io',
           description: 'Forge SDK Documentation',
+          logoUrl: '/docs/intro',
+          sidebarWidth: 320,
         },
         algoliaSearch: {
           enabled: true,
