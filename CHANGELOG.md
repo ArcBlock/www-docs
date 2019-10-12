@@ -1,3 +1,6 @@
+## 0.39.4 (October 12, 2019)
+  - chore: bump gatsby theme version
+
 ## 0.39.0 (October 10, 2019)
   - chore: bump gatsby theme version
 
