@@ -10,3 +10,6 @@
 [submodule "dependencies/forge-dapp-starters"]
 	path = dependencies/forge-dapp-starters
 	url = https://github.com/ArcBlock/forge-dapp-starters.git
+[submodule "dependencies/forge-cli-handbook"]
+	path = dependencies/forge-cli-handbook
+	url = git@github.com:ArcBlock/forge-cli-handbook.git
