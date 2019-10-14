@@ -1,3 +1,6 @@
+## 0.40.0 (October 14, 2019)
+  - chore: add forge-cli handbook to main repo
+
 ## 0.39.4 (October 12, 2019)
   - chore: bump gatsby theme version
 
