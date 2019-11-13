@@ -4,8 +4,7 @@ description: 'ArcBlock 开发者文档'
 keywords: 'Arcblock, Documentation, Developer, Framework, ABT, Blockchain'
 robots: 'index,follow'
 path: '/'
-layout: 'page'
-disableHeader: false
+layout: 'page' disableHeader: false
 darkHeader: false
 ---
 
@@ -58,8 +57,8 @@ darkHeader: false
 - [Elixir SDK](/zh/docs/instruction/sdk/elixir)
 - [Java SDK](/zh/docs/instruction/sdk/java)
 - [dApp 种子项目](https://github.com/ArcBlock/forge-dapp-starters){target="_blank"}
-- [GraphQLClient 示例代码](https://github.com/ArcBlock/forge-js/tree/master/packages/graphql-client/examples){target="_blank"}
-- [GRpcClient 示例代码](https://github.com/ArcBlock/forge-js/tree/master/packages/grpc-client/examples){target="_blank"}
+- [GraphQLClient 示例代码](https://github.com/ArcBlock/forge-js/tree/master/forge/graphql-client/examples){target="_blank"}
+- [GRpcClient 示例代码](https://github.com/ArcBlock/forge-js/tree/master/forge/grpc-client/examples){target="_blank"}
 
 ## ABT 链网 {.section .section--link-list}
 
@@ -91,12 +90,12 @@ darkHeader: false
 
 !ContentIcon[laptop-code](#4a4a4a){.section__icon bg=false}
 
-- [Forge CLI](/zh/docs/tools/forge_cli.html)
-- [Forge Web](/zh/docs/tools/forge_web.html)
-- [ABT Chain Node](/zh/docs/tools/abt_chain_node.html)
-- [Forge Simulator](/zh/docs/tools/simulator.html)
-- [Forge Indexer](/zh/docs/tools/forge_indexer.html)
-- [Forge Workshop](/zh/docs/tools/forge_workshop.html)
+- [Forge CLI](/zh/handbook)
+- [Forge Web](/zh/docs/tools/forge_web)
+- [ABT Chain Node](/zh/docs/tools/abt_chain_node)
+- [Forge Simulator](/zh/docs/tools/simulator)
+- [Forge Indexer](/zh/docs/tools/forge_indexer)
+- [Forge Workshop](/zh/docs/tools/dapps_workshop)
 - [OCAP Playground](https://ocap.arcblock.io)
 - [OCAP Playbook](https://ocap.arcblock.io/playbooks)
 
