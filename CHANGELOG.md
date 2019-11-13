@@ -1,3 +1,6 @@
+## 1.0.0 (November 13, 2019)
+  - fix: home page links
+
 ## 0.40.0 (October 14, 2019)
   - chore: add forge-cli handbook to main repo
 
