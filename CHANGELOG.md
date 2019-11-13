@@ -1,3 +1,6 @@
+## 1.0.4 (November 13, 2019)
+  - fix 404 links on en home page
+
 ## 1.0.1 (November 13, 2019)
   - fix 404 links on home page
 
