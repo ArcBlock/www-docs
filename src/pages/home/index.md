@@ -58,8 +58,8 @@ Browse the latest developer documentation including API reference, articles, and
 - [Elixir SDK](/en/docs/instruction/sdk/elixir)
 - [Java SDK](/en/docs/instruction/sdk/java)
 - [dApp Starters](https://github.com/ArcBlock/forge-dapp-starters){target="_blank"}
-- [GraphQLClient Example](https://github.com/ArcBlock/forge-js/tree/master/packages/graphql-client/examples){target="_blank"}
-- [GRpcClient Example](https://github.com/ArcBlock/forge-js/tree/master/packages/grpc-client/examples){target="_blank"}
+- [GraphQLClient Example](https://github.com/ArcBlock/forge-js/tree/master/forge/graphql-client/examples){target="_blank"}
+- [GRpcClient Example](https://github.com/ArcBlock/forge-js/tree/master/forge/grpc-client/examples){target="_blank"}
 
 ## ABT Network {.section .section--link-list}
 
@@ -91,12 +91,12 @@ Browse the latest developer documentation including API reference, articles, and
 
 !ContentIcon[laptop-code](#4a4a4a){.section__icon bg=false}
 
-- [Forge CLI](/en/docs/tools/forge_cli.html)
-- [Forge Web](/en/docs/tools/forge_web.html)
-- [ABT Chain Node](/en/docs/tools/abt_chain_node.html)
-- [Forge Simulator](/en/docs/tools/simulator.html)
-- [Forge Indexer](/en/docs/tools/forge_indexer.html)
-- [Forge Workshop](/en/docs/tools/forge_workshop.html)
+- [Forge CLI](/en/docs/tools/forge_cli)
+- [Forge Web](/en/docs/tools/forge_web)
+- [ABT Chain Node](/en/docs/tools/abt_chain_node)
+- [Forge Simulator](/en/docs/tools/simulator)
+- [Forge Indexer](/en/docs/tools/forge_indexer)
+- [Forge Workshop](/en/docs/tools/forge_workshop)
 - [OCAP Playground](https://ocap.arcblock.io)
 - [OCAP Playbook](https://ocap.arcblock.io/playbooks)
 
