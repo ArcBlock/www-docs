@@ -49,10 +49,10 @@ darkHeader: false
 
 !ContentIcon[lightbulb-on](#4a4a4a){.section__icon bg=false}
 
-- [概念](/zh/docs/intro)
-- [交易类型](/zh/docs/concepts/transaction)
-- [配置详解](/zh/docs/instruction/configuration)
-- [RPC](/zh/docs/reference/rpc)
+- [快速开始](/en/docs/intro/quickstart)
+- [概念详解](/en/docs/intro/concepts)
+- [安装手册](/en/docs/instruction/install)
+- [配置文档](/en/docs/instruction/configuration)
 - [Python SDK](/zh/docs/instruction/sdk/python)
 - [JS SDK](/zh/docs/instruction/sdk/javascript)
 - [Elixir SDK](/zh/docs/instruction/sdk/elixir)

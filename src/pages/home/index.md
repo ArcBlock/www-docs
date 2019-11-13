@@ -49,10 +49,10 @@ Browse the latest developer documentation including API reference, articles, and
 
 !ContentIcon[lightbulb-on](#4a4a4a){.section__icon bg=false}
 
-- [Concepts](/en/docs/intro)
-- [Transactions](/en/docs/concepts/transaction)
+- [Quick Start](/en/docs/intro/quickstart)
+- [Concepts](/en/docs/intro/concepts)
+- [Installation](/en/docs/instruction/install)
 - [Configuration](/en/docs/instruction/configuration)
-- [RPC](/en/docs/reference/rpc)
 - [Python SDK](/en/docs/instruction/sdk/python)
 - [JS SDK](/en/docs/instruction/sdk/javascript)
 - [Elixir SDK](/en/docs/instruction/sdk/elixir)
