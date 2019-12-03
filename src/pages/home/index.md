@@ -91,14 +91,12 @@ Browse the latest developer documentation including API reference, articles, and
 
 !ContentIcon[laptop-code](#4a4a4a){.section__icon bg=false}
 
-- [Forge CLI](/en/docs/tools/forge_cli)
+- [Forge CLI](/en/handbook/)
 - [Forge Web](/en/docs/tools/forge_web)
 - [ABT Chain Node](/en/docs/tools/abt_chain_node)
 - [Forge Simulator](/en/docs/tools/simulator)
-- [Forge Indexer](/en/docs/tools/forge_indexer)
 - [Forge Workshop](/en/docs/tools/forge_workshop)
 - [OCAP Playground](https://ocap.arcblock.io)
-- [OCAP Playbook](https://ocap.arcblock.io/playbooks)
 
 ## Release Notes {.section .section--link-list}
 

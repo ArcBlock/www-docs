@@ -94,10 +94,8 @@ darkHeader: false
 - [Forge Web](/zh/docs/tools/forge_web)
 - [ABT Chain Node](/zh/docs/tools/abt_chain_node)
 - [Forge Simulator](/zh/docs/tools/simulator)
-- [Forge Indexer](/zh/docs/tools/forge_indexer)
-- [Forge Workshop](/zh/docs/tools/dapps_workshop)
+- [dApps Workshop](/zh/docs/tools/dapps_workshop)
 - [OCAP Playground](https://ocap.arcblock.io)
-- [OCAP Playbook](https://ocap.arcblock.io/playbooks)
 
 ## 发布日志 {.section .section--link-list}
 
