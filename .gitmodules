@@ -7,9 +7,6 @@
 [submodule "dependencies/accelerator"]
 	path = dependencies/accelerator
 	url = git@github.com:ArcBlock/accelerator.git
-[submodule "dependencies/forge-dapp-starters"]
-	path = dependencies/forge-dapp-starters
-	url = https://github.com/ArcBlock/forge-dapp-starters.git
 [submodule "dependencies/forge-cli-handbook"]
 	path = dependencies/forge-cli-handbook
 	url = https://github.com/ArcBlock/forge-cli-handbook.git
