@@ -63,6 +63,10 @@ sync: build
 	@echo "Building and publishing the documenation..."
 	@aws s3 sync ./public s3://docs.arcblock.io/ --region us-west-2 --profile prod
 
+oss: build
+	@echo "Building and publishing the documenation..."
+	@oss cp public oss://arcblock-docs -r -u
+
 include .makefiles/*.mk
 
 .PHONY: build init travis-init install dep pre-build post-build all test doc precommit travis clean watch run bump-version create-pr
