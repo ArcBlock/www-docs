@@ -67,9 +67,9 @@ module.exports = {
             title: 'Community',
             link: '/community',
             subPages: {
+              'https://community.arcblockio.cn': 'Community',
               'https://github.com/ArcBlock': 'GitHub',
               'https://www.arcblock.io': 'About',
-              'https://gitter.im/ArcBlock/community': 'Gitter',
               'https://twitter.com/ArcBlock_io': 'Twitter',
               'https://www.youtube.com/channel/UCTEzIGHk71usPOLc2cYPYpQ': 'YouTube',
             },
