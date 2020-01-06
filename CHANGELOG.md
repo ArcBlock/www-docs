@@ -1,3 +1,6 @@
+## 1.0.62 (January 06, 2020)
+  - chore: bump gatsby theme version
+
 ## 1.0.4 (November 13, 2019)
   - fix 404 links on en home page
 
