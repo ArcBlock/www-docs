@@ -1,3 +1,6 @@
+## 1.0.68 (January 09, 2020)
+  - chore: bump gatsby theme version
+
 ## 1.0.63 (January 06, 2020)
 
 
