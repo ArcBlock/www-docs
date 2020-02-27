@@ -54,7 +54,7 @@ Browse the latest developer documentation including API reference, articles, and
 - [Installation](/en/docs/instruction/install)
 - [Configuration](/en/docs/instruction/configuration)
 - [Python SDK](/en/docs/instruction/sdk/python)
-- [JS SDK](/en/docs/instruction/sdk/javascript)
+- [JS SDK](/en/docs/instruction/sdk/js)
 - [Elixir SDK](/en/docs/instruction/sdk/elixir)
 - [Java SDK](/en/docs/instruction/sdk/java)
 - [dApp Starters](https://github.com/ArcBlock/forge-dapp-starters){target="_blank"}

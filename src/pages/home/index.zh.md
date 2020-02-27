@@ -53,7 +53,7 @@ darkHeader: false
 - [安装手册](/zh/docs/instruction/install)
 - [配置文档](/zh/docs/instruction/configuration)
 - [Python SDK](/zh/docs/instruction/sdk/python)
-- [JS SDK](/zh/docs/instruction/sdk/javascript)
+- [JS SDK](/zh/docs/instruction/sdk/js)
 - [Elixir SDK](/zh/docs/instruction/sdk/elixir)
 - [Java SDK](/zh/docs/instruction/sdk/java)
 - [dApp 种子项目](https://github.com/ArcBlock/forge-dapp-starters){target="_blank"}
