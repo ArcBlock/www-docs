@@ -22,6 +22,9 @@ const acceleratorIgnore = fs
   .map(x => path.resolve(__dirname, 'dependencies/accelerator/src', x));
 
 module.exports = {
+  siteMetadata: {
+    disableI18n: false,
+  },
   plugins: [
     {
       resolve: require.resolve('@arcblock/www'),

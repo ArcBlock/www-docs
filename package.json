@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/ArcBlock/www-docs#readme",
   "dependencies": {
-    "@arcblock/gatsby-theme-docs": "^6.88.0",
+    "@arcblock/gatsby-theme-docs": "^7.5.9",
     "dotenv": "^8.0.0",
     "gatsby": "2.19.22",
     "gatsby-plugin-netlify-cache": "^1.2.0",
