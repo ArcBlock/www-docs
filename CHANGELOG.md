@@ -1,3 +1,6 @@
+## 1.0.95 (三月 17, 2020)
+  - update theme lib version
+
 ## 1.0.68 (January 09, 2020)
   - chore: bump gatsby theme version
 
