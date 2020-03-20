@@ -4,17 +4,6 @@ const fs = require('fs');
 const path = require('path');
 const { version } = require('./package.json');
 
-[
-  'GATSBY_ALGOLIA_APP_ID',
-  'GATSBY_ALGOLIA_SEARCH_KEY',
-  'GATSBY_ALGOLIA_SEARCH_KEY',
-  'GATSBY_ALGOLIA_ADMIN_KEY',
-].forEach(x => {
-  if (!process.env[x]) {
-    throw new Error(`Algolia search config process.env.${x} is required`);
-  }
-});
-
 // We only need BBL folder for now
 const acceleratorIgnore = fs
   .readdirSync(path.resolve(__dirname, 'dependencies/accelerator/src'))
@@ -33,6 +22,8 @@ module.exports = {
       resolve: require.resolve('@arcblock/gatsby-theme-docs'),
       options: {
         version: `v${version}`,
+        official: true,
+        disableI18n: false,
         sourceDirs: [
           path.resolve(__dirname, 'dependencies/forge-docs/src'),
           // path.resolve(__dirname, 'dependencies/forge-tutorials/src'),
@@ -58,14 +49,6 @@ module.exports = {
           indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
         },
         navItems: [
-          // {
-          //   title: 'Versions',
-          //   link: '/versions',
-          //   subPages: {
-          //     'https://github.com/ArcBlock': 'v0.36.1',
-          //     'https://www.arcblock.io': 'v0.35.0',
-          //   },
-          // },
           {
             title: 'Community',
             link: '/community',
