@@ -1,3 +1,6 @@
+## 1.1.0 (March 20, 2020)
+
+
 ## 1.0.95 (三月 17, 2020)
   - update theme lib version
 
