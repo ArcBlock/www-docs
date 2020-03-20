@@ -23,7 +23,7 @@ dep:
 	@echo "Install npm dependencies required for this repo..."
 	@yarn
 
-pre-build: install dep clean prepare
+pre-build: install dep clean
 	@echo "Running scripts before the build..."
 
 post-build:
@@ -51,7 +51,7 @@ travis-deploy:
 	@echo "Deploy the software by travis"
 	@.makefiles/build.sh
 
-run: prepare
+run:
 	@echo "Running the software..."
 	@yarn start
 
