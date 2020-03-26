@@ -2,26 +2,26 @@
 # yarn lockfile v1
 
 
-"@arcblock/did-connect@^0.73.0":
-  version "0.73.0"
-  resolved "https://registry.npm.taobao.org/@arcblock/did-connect/download/@arcblock/did-connect-0.73.0.tgz#65334018c109fafaf19e5fbd2c213617df57deef"
-  integrity sha1-ZTNAGMEJ+vrxnl+9LCE2F99X3u8=
+"@arcblock/did-connect@^0.73.2":
+  version "0.73.2"
+  resolved "https://registry.npm.taobao.org/@arcblock/did-connect/download/@arcblock/did-connect-0.73.2.tgz#6bf7c40b183d0d1a8140c937894a9116a6467abd"
+  integrity sha1-a/fECxg9DRqBQMk3iUqRFqZGer0=
   dependencies:
-    "@arcblock/did-react" "^0.73.0"
-    "@arcblock/ux" "^0.73.0"
+    "@arcblock/did-react" "^0.73.2"
+    "@arcblock/ux" "^0.73.2"
     "@material-ui/core" "^4.9.7"
     core-js "^3.6.4"
     react-use "^13.22.4"
     styled-components "^5.0.0"
 
-"@arcblock/did-playground@^0.82.0":
-  version "0.82.0"
-  resolved "https://registry.npm.taobao.org/@arcblock/did-playground/download/@arcblock/did-playground-0.82.0.tgz#0655228091f04902d81212ae4a89d8e7532f5c4f"
-  integrity sha1-BlUigJHwSQLYEhKuSonY51MvXE8=
+"@arcblock/did-playground@^0.84.0":
+  version "0.84.0"
+  resolved "https://registry.npm.taobao.org/@arcblock/did-playground/download/@arcblock/did-playground-0.84.0.tgz#4a3e8cbac14515227aec5ac73519300d25a4b0ad"
+  integrity sha1-Sj6MusFFFSJ67FrHNRkwDSWksK0=
   dependencies:
-    "@arcblock/did-react" "^0.73.0"
+    "@arcblock/did-react" "^0.73.2"
     "@arcblock/react-hooks" "^0.73.0"
-    "@arcblock/ux" "^0.73.0"
+    "@arcblock/ux" "^0.73.2"
     "@material-ui/core" "^4.9.1"
     axios "^0.19.2"
     core-js "^3.6.4"
@@ -29,14 +29,14 @@
     react-use "^13.27.0"
     styled-components "^5.0.1"
 
-"@arcblock/did-react@^0.73.0":
-  version "0.73.0"
-  resolved "https://registry.npm.taobao.org/@arcblock/did-react/download/@arcblock/did-react-0.73.0.tgz#484d0395cfcf7468e3815ab92681443c0b62d0ec"
-  integrity sha1-SE0Dlc/PdGjjgVq5JoFEPAti0Ow=
+"@arcblock/did-react@^0.73.2":
+  version "0.73.2"
+  resolved "https://registry.npm.taobao.org/@arcblock/did-react/download/@arcblock/did-react-0.73.2.tgz#3f27d73c35d9439b6224c16d07aad1d83fd68365"
+  integrity sha1-PyfXPDXZQ5tiJMFtB6rR2D/Wg2U=
   dependencies:
     "@arcblock/event-client" "^1.0.23"
     "@arcblock/react-hooks" "^0.73.0"
-    "@arcblock/ux" "^0.73.0"
+    "@arcblock/ux" "^0.73.2"
     "@material-ui/core" "^4.9.7"
     axios "^0.19.2"
     core-js "^3.6.4"
@@ -77,10 +77,10 @@
     remark-containers "^1.1.0"
     remark-generic-extensions "^1.4.0"
 
-"@arcblock/gatsby-theme-docs@^7.11.2":
-  version "7.11.2"
-  resolved "https://registry.npm.taobao.org/@arcblock/gatsby-theme-docs/download/@arcblock/gatsby-theme-docs-7.11.2.tgz#2d79d4fbde0edaa42625582e1daad73c8d05f59d"
-  integrity sha1-LXnU+94O2qQmJVguHarXPI0F9Z0=
+"@arcblock/gatsby-theme-docs@^7.12.0":
+  version "7.12.0"
+  resolved "https://registry.npm.taobao.org/@arcblock/gatsby-theme-docs/download/@arcblock/gatsby-theme-docs-7.12.0.tgz#f7bfc7bff926e79028afd3bc6ce2cf4231f1b731"
+  integrity sha1-97/Hv/km55Aor9O8bOLPQjHxtzE=
   dependencies:
     "@arcblock/gatsby-awesome-pagination" "^0.3.4"
     "@arcblock/gatsby-remark-extensions" "^7.5.1"
@@ -88,8 +88,8 @@
     "@arcblock/gatsby-transformer-slide-track" "^7.11.0"
     "@arcblock/gatsby-transformer-terminal-recording" "^7.11.0"
     "@arcblock/remark-include" "^7.5.1"
-    "@arcblock/ux" "^0.73.0"
-    "@arcblock/www" "^7.11.1"
+    "@arcblock/ux" "^0.73.2"
+    "@arcblock/www" "^7.12.0"
     "@material-ui/core" "^4.9.7"
     "@material-ui/icons" "4.5.1"
     "@svgr/webpack" "^4.1.0"
@@ -211,10 +211,10 @@
     debug "^4.1.1"
     vfile "^2.0.0"
 
-"@arcblock/ux@^0.73.0":
-  version "0.73.0"
-  resolved "https://registry.npm.taobao.org/@arcblock/ux/download/@arcblock/ux-0.73.0.tgz#48f984069cdea17d7879cedbca9fea47b9911961"
-  integrity sha1-SPmEBpzeoX14ec7byp/qR7mRGWE=
+"@arcblock/ux@^0.73.2":
+  version "0.73.2"
+  resolved "https://registry.npm.taobao.org/@arcblock/ux/download/@arcblock/ux-0.73.2.tgz#c888ac99ce8dc8f8221bca8bd5e605700363bc75"
+  integrity sha1-yIismc6NyPgiG8qL1eYFcANjvHU=
   dependencies:
     "@arcblock/react-hooks" "^0.73.0"
     "@babel/plugin-syntax-dynamic-import" "^7.8.3"
@@ -243,14 +243,14 @@
     xterm-addon-fit "^0.2.1"
     xterm-addon-web-links "^0.2.1"
 
-"@arcblock/www@^7.11.1":
-  version "7.11.1"
-  resolved "https://registry.npm.taobao.org/@arcblock/www/download/@arcblock/www-7.11.1.tgz#a93c465ebea27bce5cbc3ff3ced888ea38b4a095"
-  integrity sha1-qTxGXr6ie85cvD/zztiI6ji0oJU=
+"@arcblock/www@^7.12.0":
+  version "7.12.0"
+  resolved "https://registry.npm.taobao.org/@arcblock/www/download/@arcblock/www-7.12.0.tgz#cf1cd9d9deedf4b20a6fdef6cbd36567e10c98bc"
+  integrity sha1-zxzZ2d7t9LIKb972y9NlZ+EMmLw=
   dependencies:
-    "@arcblock/did-connect" "^0.73.0"
-    "@arcblock/did-playground" "^0.82.0"
-    "@arcblock/ux" "^0.73.0"
+    "@arcblock/did-connect" "^0.73.2"
+    "@arcblock/did-playground" "^0.84.0"
+    "@arcblock/ux" "^0.73.2"
     "@material-ui/core" "^4.9.7"
     "@material-ui/icons" "4.5.1"
     axios "^0.19.0"
