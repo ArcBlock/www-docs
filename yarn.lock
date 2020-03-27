@@ -77,10 +77,10 @@
     remark-containers "^1.1.0"
     remark-generic-extensions "^1.4.0"
 
-"@arcblock/gatsby-theme-docs@^7.12.0":
-  version "7.12.0"
-  resolved "https://registry.npm.taobao.org/@arcblock/gatsby-theme-docs/download/@arcblock/gatsby-theme-docs-7.12.0.tgz#f7bfc7bff926e79028afd3bc6ce2cf4231f1b731"
-  integrity sha1-97/Hv/km55Aor9O8bOLPQjHxtzE=
+"@arcblock/gatsby-theme-docs@^7.13.0":
+  version "7.13.0"
+  resolved "https://registry.npm.taobao.org/@arcblock/gatsby-theme-docs/download/@arcblock/gatsby-theme-docs-7.13.0.tgz#10b1f10e8d9c2f7da661434167cf0917765e1428"
+  integrity sha1-ELHxDo2cL32mYUNBZ88JF3ZeFCg=
   dependencies:
     "@arcblock/gatsby-awesome-pagination" "^0.3.4"
     "@arcblock/gatsby-remark-extensions" "^7.5.1"
@@ -89,7 +89,7 @@
     "@arcblock/gatsby-transformer-terminal-recording" "^7.11.0"
     "@arcblock/remark-include" "^7.5.1"
     "@arcblock/ux" "^0.73.2"
-    "@arcblock/www" "^7.12.0"
+    "@arcblock/www" "^7.13.0"
     "@material-ui/core" "^4.9.7"
     "@material-ui/icons" "4.5.1"
     "@svgr/webpack" "^4.1.0"
@@ -243,10 +243,10 @@
     xterm-addon-fit "^0.2.1"
     xterm-addon-web-links "^0.2.1"
 
-"@arcblock/www@^7.12.0":
-  version "7.12.0"
-  resolved "https://registry.npm.taobao.org/@arcblock/www/download/@arcblock/www-7.12.0.tgz#cf1cd9d9deedf4b20a6fdef6cbd36567e10c98bc"
-  integrity sha1-zxzZ2d7t9LIKb972y9NlZ+EMmLw=
+"@arcblock/www@^7.13.0":
+  version "7.13.0"
+  resolved "https://registry.npm.taobao.org/@arcblock/www/download/@arcblock/www-7.13.0.tgz#b1e0b2035076f17cc730293ad7520df8140a4c31"
+  integrity sha1-seCyA1B28XzHMCk611IN+BQKTDE=
   dependencies:
     "@arcblock/did-connect" "^0.73.2"
     "@arcblock/did-playground" "^0.84.0"
