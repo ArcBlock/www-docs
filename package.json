@@ -1,6 +1,6 @@
 {
   "name": "www-docs",
-  "version": "1.1.6",
+  "version": "1.1.10",
   "private": true,
   "description": "Doc site for arcblock",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/ArcBlock/www-docs#readme",
   "dependencies": {
-    "@arcblock/gatsby-theme-docs": "^7.13.0",
+    "@arcblock/gatsby-theme-docs": "^7.15.0",
     "dotenv": "^8.0.0",
     "gatsby": "2.20.3",
     "gatsby-plugin-netlify-cache": "^1.2.0",

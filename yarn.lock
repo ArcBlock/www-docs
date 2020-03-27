@@ -77,10 +77,10 @@
     remark-containers "^1.1.0"
     remark-generic-extensions "^1.4.0"
 
-"@arcblock/gatsby-theme-docs@^7.13.0":
-  version "7.13.0"
-  resolved "https://registry.npm.taobao.org/@arcblock/gatsby-theme-docs/download/@arcblock/gatsby-theme-docs-7.13.0.tgz#10b1f10e8d9c2f7da661434167cf0917765e1428"
-  integrity sha1-ELHxDo2cL32mYUNBZ88JF3ZeFCg=
+"@arcblock/gatsby-theme-docs@^7.15.0":
+  version "7.15.0"
+  resolved "https://registry.npm.taobao.org/@arcblock/gatsby-theme-docs/download/@arcblock/gatsby-theme-docs-7.15.0.tgz#aa3039a2372d41ce85000f02829cbd8069a6061f"
+  integrity sha1-qjA5ojctQc6FAA8Cgpy9gGmmBh8=
   dependencies:
     "@arcblock/gatsby-awesome-pagination" "^0.3.4"
     "@arcblock/gatsby-remark-extensions" "^7.5.1"
@@ -89,12 +89,12 @@
     "@arcblock/gatsby-transformer-terminal-recording" "^7.11.0"
     "@arcblock/remark-include" "^7.5.1"
     "@arcblock/ux" "^0.73.2"
-    "@arcblock/www" "^7.13.0"
+    "@arcblock/www" "^7.15.0"
     "@material-ui/core" "^4.9.7"
     "@material-ui/icons" "4.5.1"
     "@svgr/webpack" "^4.1.0"
     "@xmark/core" "^0.23.1"
-    "@xmark/theme-section-template" "^0.23.3"
+    "@xmark/theme-section-template" "^0.23.4"
     "@xmark/theme-shower-ribbon" "^0.23.1"
     "@xmark/transform-class-extension" "^0.23.1"
     "@xmark/transform-gatsby-remark" "^0.23.1"
@@ -243,10 +243,10 @@
     xterm-addon-fit "^0.2.1"
     xterm-addon-web-links "^0.2.1"
 
-"@arcblock/www@^7.13.0":
-  version "7.13.0"
-  resolved "https://registry.npm.taobao.org/@arcblock/www/download/@arcblock/www-7.13.0.tgz#b1e0b2035076f17cc730293ad7520df8140a4c31"
-  integrity sha1-seCyA1B28XzHMCk611IN+BQKTDE=
+"@arcblock/www@^7.15.0":
+  version "7.15.0"
+  resolved "https://registry.npm.taobao.org/@arcblock/www/download/@arcblock/www-7.15.0.tgz#32e73f0cf46df63f4180178e6541924766dc31cb"
+  integrity sha1-Muc/DPRt9j9BgBeOZUGSR2bcMcs=
   dependencies:
     "@arcblock/did-connect" "^0.73.2"
     "@arcblock/did-playground" "^0.84.0"
@@ -2618,10 +2618,10 @@
     remark-generic-extensions "^1.4.0"
     unist-util-remove-position "^2.0.0"
 
-"@xmark/theme-section-template@^0.23.3":
-  version "0.23.3"
-  resolved "https://registry.yarnpkg.com/@xmark/theme-section-template/-/theme-section-template-0.23.3.tgz#aef208b9916a9e5bc28b5b95bd0bdeadb24c2e76"
-  integrity sha512-JEH3vLY0ISm9kApAI2FVqZBCV5T5Mo00dlckyis7gU6LjMDKf5hrGL3aiqD/aS49Nu3ccVYlejqXiDHUVal2dg==
+"@xmark/theme-section-template@^0.23.4":
+  version "0.23.4"
+  resolved "https://registry.npm.taobao.org/@xmark/theme-section-template/download/@xmark/theme-section-template-0.23.4.tgz#1258bd20c54b9c59dabab33f89a6a131b3b9c615"
+  integrity sha1-Eli9IMVLnFnaurM/iaahMbO5xhU=
 
 "@xmark/theme-shower-ribbon@^0.23.1":
   version "0.23.1"

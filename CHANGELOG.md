@@ -1,3 +1,6 @@
+## 1.1.10 (March 27, 2020)
+  - chore: add open in abt wallet in all our websites and docsites #93
+
 ## 1.1.6 (March 24, 2020)
 
 
