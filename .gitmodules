@@ -10,3 +10,6 @@
 [submodule "dependencies/forge-cli-handbook"]
 	path = dependencies/forge-cli-handbook
 	url = https://github.com/ArcBlock/forge-cli-handbook.git
+[submodule "dependencies/abtnode-docs"]
+	path = dependencies/abtnode-docs
+	url = https://github.com/ArcBlock/abtnode-docs.git

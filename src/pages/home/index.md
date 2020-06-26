@@ -96,6 +96,7 @@ Browse the latest developer documentation including API reference, articles, and
 - [ABT Chain Node](/en/docs/tools/abt_chain_node)
 - [Forge Simulator](/en/docs/tools/simulator)
 - [Forge Workshop](/en/docs/tools/forge_workshop)
+- [ABT Node](/en/abtnode)
 
 ## Release Notes {.section .section--link-list}
 

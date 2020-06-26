@@ -95,6 +95,7 @@ darkHeader: false
 - [ABT Chain Node](/zh/docs/tools/abt_chain_node)
 - [Forge Simulator](/zh/docs/tools/simulator)
 - [dApps Workshop](/zh/docs/tools/dapps_workshop)
+- [ABT Node](/zh/abtnode)
 
 ## 发布日志 {.section .section--link-list}
 
