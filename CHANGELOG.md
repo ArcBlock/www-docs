@@ -1,3 +1,6 @@
+## 1.2.0 (June 27, 2020)
+
+
 ## 1.1.17 (June 26, 2020)
   - add abtnode docs
 
