@@ -23,7 +23,7 @@
     "@arcblock/gatsby-theme-docs": "^7.25.2",
     "dotenv": "^8.0.0",
     "gatsby": "2.23.11",
-    "gatsby-plugin-netlify-cache": "^1.2.1",
+    "gatsby-plugin-netlify-cache": "^1.2.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   }
