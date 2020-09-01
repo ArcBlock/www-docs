@@ -1,3 +1,6 @@
+## 1.2.29 (September 01, 2020)
+  - remove contents no longer maintained
+
 ## 1.2.1 (June 29, 2020)
 
 
