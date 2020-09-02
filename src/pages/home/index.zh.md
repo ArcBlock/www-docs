@@ -28,10 +28,6 @@ darkHeader: false
 
 !ContentIcon[chart-network](#222222)
 
-#### OCAP 服务
-
-!ContentIcon[filter](#222222)
-
 #### 开发者工具
 
 !ContentIcon[laptop-code](#222222)
@@ -52,10 +48,7 @@ darkHeader: false
 - [概念详解](/zh/docs/intro/concepts)
 - [安装手册](/zh/docs/instruction/install)
 - [配置文档](/zh/docs/instruction/configuration)
-- [Python SDK](/zh/docs/instruction/sdk/python)
 - [JS SDK](/zh/docs/instruction/sdk/js)
-- [Elixir SDK](/zh/docs/instruction/sdk/elixir)
-- [Java SDK](/zh/docs/instruction/sdk/java)
 - [dApp 种子项目](https://github.com/ArcBlock/forge-dapp-starters){target="_blank"}
 - [GraphQLClient 示例代码](https://github.com/ArcBlock/forge-js/tree/master/forge/graphql-client/examples){target="_blank"}
 - [GRpcClient 示例代码](https://github.com/ArcBlock/forge-js/tree/master/forge/grpc-client/examples){target="_blank"}
@@ -65,26 +58,6 @@ darkHeader: false
 !ContentIcon[chart-network](#4a4a4a){.section__icon bg=false}
 
 - [区块浏览器](https://explorer.abtnetwork.io){target="_blank"}
-- [Argon 链](https://argon.abtnetwork.io){target="_blank"}
-- [Bromine 链](https://bromine.abtnetwork.io){target="_blank"}
-- [Titanium 链](https://titanium.abtnetwork.io){target="_blank"}
-- [Nightly 链](https://test.abtnetwork.io){target="_blank"}
-
-## OCAP 服务 {.section .section--link-list}
-
-!ContentIcon[filter](#4a4a4a){.section__icon bg=false}
-
-- [文档](http://ocap-docs.arcblock.io){target="_blank"}
-- [JS SDK](https://github.com/ArcBlock/ocap-javascript-sdk/tree/master/packages/ocap-js){target="_blank"}
-- [Android SDK](https://github.com/ArcBlock/arcblock-android-sdk){target="_blank"}
-- [iOS SDK](https://github.com/ArcBlock/arcblock-ios-sdk){target="_blank"}
-- [React Starter](https://github.com/ArcBlock/ocap-react-starter){target="_blank"}
-- [React Native Starter](https://github.com/ArcBlock/ocap-react-native-starter){target="_blank"}
-- [Vue Starter](https://github.com/ArcBlock/ocap-vue-starter){target="_blank"}
-- [Node.js Starter](https://github.com/ArcBlock/ocap-express-starter){target="_blank"}
-- [Android Starter](https://github.com/NateRobinson/SDKTempDemo){target="_blank"}
-- [Python 示例](https://github.com/tyrchen/ocap-example/tree/master/src/python){target="_blank"}
-- [Elixir 示例](https://github.com/tyrchen/ocap-example/tree/master/src/elixir){target="_blank"}
 
 ## 开发者工具 {.section .section--link-list}
 
@@ -92,18 +65,14 @@ darkHeader: false
 
 - [Forge CLI](/zh/handbook)
 - [Forge Web](/zh/docs/tools/forge_web)
-- [ABT Chain Node](/zh/docs/tools/abt_chain_node)
 - [Forge Simulator](/zh/docs/tools/simulator)
-- [dApps Workshop](/zh/docs/tools/dapps_workshop)
 - [ABT Node](/zh/abtnode)
 
 ## 发布日志 {.section .section--link-list}
 
 !ContentIcon[sticky-note](#4a4a4a){.section__icon bg=false}
 
-- [Elixir SDK 发布日志](https://github.com/ArcBlock/forge-elixir-sdk/blob/master/CHANGELOG.md){target="_blank"}
 - [JS SDK 发布日志](https://github.com/ArcBlock/forge-js/blob/master/CHANGELOG.md){target="_blank"}
-- [Python SDK 发布日志](https://github.com/ArcBlock/forge-python-sdk/blob/master/CHANGELOG.md){target="_blank"}
 
 ## 其他资源 {.section .section--link-list}
 
