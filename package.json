@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -rf .cache public",
     "start": "gatsby develop",
-    "build": "NODE_ENV=production GATSBY_APP_DOMAIN=docs.arcblock.io gatsby build",
+    "build": "yarn run clean && NODE_ENV=production GATSBY_APP_DOMAIN=docs.arcblock.io gatsby build",
     "serve": "gatsby serve"
   },
   "files": [
