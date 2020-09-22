@@ -4,9 +4,6 @@
 [submodule "dependencies/forge-tutorials"]
 	path = dependencies/forge-tutorials
 	url = https://github.com/ArcBlock/forge-tutorials.git
-[submodule "dependencies/accelerator"]
-	path = dependencies/accelerator
-	url = git@github.com:ArcBlock/accelerator.git
 [submodule "dependencies/forge-cli-handbook"]
 	path = dependencies/forge-cli-handbook
 	url = https://github.com/ArcBlock/forge-cli-handbook.git

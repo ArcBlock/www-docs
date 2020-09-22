@@ -4,12 +4,6 @@ const fs = require('fs');
 const path = require('path');
 const { version } = require('./package.json');
 
-// We only need BBL folder for now
-const acceleratorIgnore = fs
-  .readdirSync(path.resolve(__dirname, 'dependencies/accelerator/src'))
-  .filter(x => x !== 'bbl')
-  .map(x => path.resolve(__dirname, 'dependencies/accelerator/src', x));
-
 module.exports = {
   siteMetadata: {
     disableI18n: false,
@@ -26,13 +20,8 @@ module.exports = {
         disableI18n: false,
         sourceDirs: [
           path.resolve(__dirname, 'dependencies/forge-docs/src'),
-          // path.resolve(__dirname, 'dependencies/forge-tutorials/src'),
           path.resolve(__dirname, 'dependencies/forge-cli-handbook/src'),
           path.resolve(__dirname, 'dependencies/abtnode-docs/src'),
-          // {
-          //   dir: path.resolve(__dirname, 'dependencies/accelerator/src'),
-          //   ignore: acceleratorIgnore,
-          // },
           path.resolve(__dirname, 'src', 'pages'),
         ],
         siteMetadata: {
@@ -52,7 +41,7 @@ module.exports = {
         navItems: [
           {
             title: 'Community',
-            link: '/community',
+            link: 'https://community.arcblockio.cn',
             subPages: {
               'https://community.arcblockio.cn': 'Community',
               'https://github.com/ArcBlock': 'GitHub',
