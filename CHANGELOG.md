@@ -1,3 +1,6 @@
+## 1.2.34 (September 22, 2020)
+
+
 ## 1.2.32 (September 22, 2020)
   - update doc lib to disable image click
 
