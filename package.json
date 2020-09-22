@@ -4,10 +4,15 @@
   "private": true,
   "description": "Doc site for arcblock",
   "scripts": {
+    "clean": "rm -rf .cache public",
     "start": "gatsby develop",
     "build": "NODE_ENV=production GATSBY_APP_DOMAIN=docs.arcblock.io gatsby build",
     "serve": "gatsby serve"
   },
+  "files": [
+    "public/",
+    "blocklet.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ArcBlock/www-docs.git"
@@ -22,9 +27,25 @@
   "dependencies": {
     "@arcblock/gatsby-theme-docs": "^7.28.3",
     "dotenv": "^8.0.0",
-    "gatsby": "2.23.11",
+    "gatsby": "2.24.8",
     "gatsby-plugin-netlify-cache": "^1.2.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
+  },
+  "blocklet": {
+    "title": "ArcBlock Docs",
+    "main": "public",
+    "group": "static",
+    "color": "primary",
+    "provider": "arcblock",
+    "documentation": "https://docs.arcblock.io",
+    "support": "support@arcblock.io",
+    "community": "https://gitter.im/ArcBlock/community",
+    "capabilities": {
+      "dynamicPathPrefix": false
+    },
+    "config_url": "",
+    "public_url": "/en",
+    "admin_url": ""
   }
 }
