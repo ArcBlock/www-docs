@@ -77,10 +77,10 @@
     remark-containers "^1.1.0"
     remark-generic-extensions "^1.4.0"
 
-"@arcblock/gatsby-theme-docs@^7.28.3":
-  version "7.28.3"
-  resolved "https://registry.yarnpkg.com/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-7.28.3.tgz#1d9be2af3d4112d0004d1b4561543ee4062a846d"
-  integrity sha512-/Z6wgNP6x5KZZ51Z67BT9te9n4h66vJEleIxXymi/oGC15Tht6SOKzrJu3J6aezorz+PN4pWpt3wDpbLwLjyFA==
+"@arcblock/gatsby-theme-docs@^7.28.4":
+  version "7.28.4"
+  resolved "https://registry.yarnpkg.com/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-7.28.4.tgz#6c2a88919b51dfbcb717c1a03c2e3197ca594361"
+  integrity sha512-PcMkFadTrGh9MqxfcGEj05RlMbMGMz/WxlemIutB3j4i8CQBW5lcpclRxD8ApheIzGJ5SX536UNmzmzUy6U0eg==
   dependencies:
     "@arcblock/gatsby-awesome-pagination" "^0.3.4"
     "@arcblock/gatsby-remark-extensions" "^7.27.0"
@@ -89,7 +89,7 @@
     "@arcblock/gatsby-transformer-terminal-recording" "^7.28.0"
     "@arcblock/remark-include" "^7.27.0"
     "@arcblock/ux" "^0.78.5"
-    "@arcblock/www" "^7.28.3"
+    "@arcblock/www" "^7.28.4"
     "@material-ui/core" "^4.10.2"
     "@material-ui/icons" "4.5.1"
     "@svgr/webpack" "^4.1.0"
@@ -246,10 +246,10 @@
     xterm-addon-fit "^0.2.1"
     xterm-addon-web-links "^0.2.1"
 
-"@arcblock/www@^7.28.3":
-  version "7.28.3"
-  resolved "https://registry.yarnpkg.com/@arcblock/www/-/www-7.28.3.tgz#20d1fb33776c2902e7f4a1fe1a4d3e74a6ebb90b"
-  integrity sha512-BX8MKJYWW7Eil4tiRL59a2Cqih6LhdCJV7mQibfD8EKPef+spd5dsDDe6xiVK9hX+LIOGujNMXQpEA9YP1PL6Q==
+"@arcblock/www@^7.28.4":
+  version "7.28.4"
+  resolved "https://registry.yarnpkg.com/@arcblock/www/-/www-7.28.4.tgz#033fc734e697791104956cb3086729ca8a128716"
+  integrity sha512-V8tfZMO86ySJaj9kKOrf8+GVtKNusuLBKjDvnxJ/6lqQPBCjpcLHcGzlaCG4a9Ad3j1qzztLlYuzDD+9yGzyRA==
   dependencies:
     "@arcblock/did-connect" "^0.78.5"
     "@arcblock/did-playground" "^1.8.4"
