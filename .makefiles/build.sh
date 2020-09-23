@@ -89,6 +89,7 @@ if [ "$TRAVIS_PULL_REQUEST" = false ]; then
   git remote remove origin
   git remote add origin "https://$GITHUB_TOKEN@github.com/$TRAVIS_REPO_SLUG.git"
   git status
+  git add .versions dependencies
   git commit -am 'update dependencies and bump version'
   git push origin master
 fi
