@@ -1,3 +1,6 @@
+## 1.2.38 (September 23, 2020)
+  - update travis
+
 ## 1.2.36 (September 23, 2020)
   - add upload to node server cli
   - Merge branch 'master' into publish-to-node-server
