@@ -1,3 +1,6 @@
+## 1.2.39 (September 23, 2020)
+
+
 ## 1.2.38 (September 23, 2020)
   - update travis
 
