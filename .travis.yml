@@ -21,7 +21,7 @@ deploy:
     branch: master
 - provider: script
   skip_cleanup: true
-  script: bash ./makefiles/publish.sh
+  script: bash ./.makefiles/publish.sh
   on:
     branch: master
     node_js: 12
