@@ -15,6 +15,7 @@ export default class HTML extends React.Component {
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <link rel="stylesheet" type="text/css" href="/icons/css/all.css" />
+          <script src="/api/env.js" />
           {this.props.headComponents}
         </head>
         <body>

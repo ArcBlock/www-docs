@@ -1,12 +1,12 @@
 {
   "name": "www-docs",
-  "version": "1.2.34",
+  "version": "1.2.36",
   "private": true,
   "description": "Doc site for arcblock",
   "scripts": {
     "clean": "rm -rf .cache public",
     "start": "gatsby develop",
-    "build": "NODE_ENV=production GATSBY_APP_DOMAIN=docs.arcblock.io gatsby build",
+    "build": "yarn run clean && NODE_ENV=production GATSBY_APP_DOMAIN=docs.arcblock.io gatsby build",
     "serve": "gatsby serve"
   },
   "files": [
