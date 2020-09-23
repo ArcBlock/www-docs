@@ -1,3 +1,8 @@
+## 1.2.40 (September 23, 2020)
+  - Merge branch 'master' of github.com:ArcBlock/www-docs
+  - make bump version
+  - add abtnode cli before deploy to node server
+
 ## 1.2.39 (September 23, 2020)
 
 
