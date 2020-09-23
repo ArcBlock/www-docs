@@ -1,3 +1,9 @@
+## 1.2.36 (September 23, 2020)
+  - add upload to node server cli
+  - Merge branch 'master' into publish-to-node-server
+  - Merge branch 'master' into publish-to-node-server
+  - support upload to node server
+
 ## 1.2.34 (September 22, 2020)
 
 
