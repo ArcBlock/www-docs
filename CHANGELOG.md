@@ -1,3 +1,6 @@
+## 1.2.43 (September 29, 2020)
+  - update www lib to fix header link
+
 ## 1.2.41 (September 29, 2020)
 
 
