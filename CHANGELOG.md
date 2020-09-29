@@ -1,3 +1,9 @@
+## 1.2.43 (September 29, 2020)
+  - update www lib to fix header link
+
+## 1.2.41 (September 29, 2020)
+
+
 ## 1.2.40 (September 23, 2020)
   - Merge branch 'master' of github.com:ArcBlock/www-docs
   - make bump version
