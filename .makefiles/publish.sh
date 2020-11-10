@@ -1,5 +1,5 @@
 echo "publishing www docs blocklet to node server..."
-npm install -g @abtnode/cli
+sudo npm install -g @abtnode/cli
 npm run build
 
 # deploy to remote ABT Node

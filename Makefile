@@ -11,12 +11,9 @@ build: clean init
 init: install dep
 	@echo "Initializing the repo..."
 
-travis-init: install dep
-	@echo "Initialize software required for travis (normally ubuntu software)"
-
 install:
 	@echo "Install software required for this repo..."
-	@npm install -g gatsby-cli netlify-cli yarn
+	@npm install -g gatsby-cli yarn
 	@git submodule update --init
 
 dep:
@@ -43,14 +40,6 @@ doc:
 
 precommit: dep lint doc build test
 
-travis: precommit
-	@echo "Prepare travis build env"
-	@gem install travis -v 1.8.9
-
-travis-deploy:
-	@echo "Deploy the software by travis"
-	@.makefiles/build.sh
-
 run:
 	@echo "Running the software..."
 	@yarn start
@@ -69,4 +58,4 @@ oss: build
 
 include .makefiles/*.mk
 
-.PHONY: build init travis-init install dep pre-build post-build all test doc precommit travis clean watch run bump-version create-pr
+.PHONY: build init install dep pre-build post-build all test doc precommit clean watch run bump-version create-pr
