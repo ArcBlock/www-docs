@@ -3,11 +3,11 @@ sudo npm install -g @abtnode/cli
 npm run build
 
 # deploy to remote ABT Node
-if [ "${ALIYUN_ENDPOINT}" != "" ]; then
-  abtnode deploy . --endpoint ${ALIYUN_ENDPOINT} --access-key ${ALIYUN_ACCESS_KEY} --access-secret ${ALIYUN_ACCESS_SECRET} --skip-hooks
-  echo "deploy to ${ALIYUN_ENDPOINT} success"
+if [ "${ALIYUN_NODE_ENDPOINT}" != "" ]; then
+  abtnode deploy . --endpoint ${ALIYUN_NODE_ENDPOINT} --access-key ${ALIYUN_NODE_ACCESS_KEY} --access-secret ${ALIYUN_NODE_ACCESS_SECRET} --skip-hooks
+  echo "deploy to ${ALIYUN_NODE_ENDPOINT} success"
 fi
-if [ "${AWS_ENDPOINT}" != "" ]; then
-  abtnode deploy . --endpoint ${AWS_ENDPOINT} --access-key ${AWS_ACCESS_KEY} --access-secret ${AWS_ACCESS_SECRET} --skip-hooks
-  echo "deploy to ${ALIYUN_ENDPOINT} success"
+if [ "${AWS_NODE_ENDPOINT}" != "" ]; then
+  abtnode deploy . --endpoint ${AWS_NODE_ENDPOINT} --access-key ${AWS_NODE_ACCESS_KEY} --access-secret ${AWS_NODE_ACCESS_SECRET} --skip-hooks
+  echo "deploy to ${AWS_NODE_ENDPOINT} success"
 fi
