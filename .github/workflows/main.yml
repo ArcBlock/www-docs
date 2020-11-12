@@ -14,9 +14,39 @@ jobs:
     if: "! contains(toJSON(github.event.commits.*.message), '[skip ci]')"
 
     steps:
-
     - name: Checkout repo
       uses: actions/checkout@v2
+    
+    - name: Remove submodules files
+      run: rm -rf dependencies/*
+    
+    - name: Checkout ArcBlock/abtnode-docs
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.GIT_HUB_TOKEN }}
+        repository: ArcBlock/abtnode-docs
+        path: dependencies/abtnode-docs
+    
+    - name: Checkout ArcBlock/forge-cli-handbook
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.GIT_HUB_TOKEN }}
+        repository: ArcBlock/forge-cli-handbook
+        path: dependencies/forge-cli-handbook
+
+    - name: Checkout ArcBlock/forge-docs
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.GIT_HUB_TOKEN }}
+        repository: ArcBlock/forge-docs
+        path: dependencies/forge-docs
+
+    - name: Checkout ArcBlock/forge-tutorials
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.GIT_HUB_TOKEN }}
+        repository: ArcBlock/forge-tutorials
+        path: dependencies/forge-tutorials
 
     - name: Deploy
       env:
@@ -33,4 +63,4 @@ jobs:
         GATSBY_ALGOLIA_ADMIN_KEY: ${{ secrets.GATSBY_ALGOLIA_ADMIN_KEY }}
         GATSBY_ALGOLIA_SEARCH_KEY: ${{ secrets.GATSBY_ALGOLIA_SEARCH_KEY }}
         GATSBY_ALGOLIA_INDEX_NAME: ${{ secrets.GATSBY_ALGOLIA_INDEX_NAME }}
-      run: bash ./tools/publish.sh
+      run: bash ./.makefiles/publish.sh

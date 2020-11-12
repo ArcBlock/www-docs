@@ -1,4 +1,6 @@
 echo "publishing www docs blocklet to node server..."
+
+yarn
 sudo npm install -g @abtnode/cli
 npm run build
 
