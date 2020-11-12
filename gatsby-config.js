@@ -18,6 +18,7 @@ module.exports = {
         version: `v${version}`,
         official: true,
         disableI18n: false,
+        showGetStarted: true,
         sourceDirs: [
           path.resolve(__dirname, 'dependencies/forge-docs/src'),
           path.resolve(__dirname, 'dependencies/forge-cli-handbook/src'),
