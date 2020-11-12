@@ -13,6 +13,8 @@ MAIN_CHANGED=false
 echo "Updating submodules..."
 git config --local user.name "wangshijun"
 git config --local user.email "wangshijun2010@gmail.com"
+git remote remove origin
+git remote add origin "https://$GIT_HUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
 git checkout master
 git pull origin master
 git submodule update --remote
