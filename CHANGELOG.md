@@ -1,3 +1,6 @@
+## 1.2.52 (November 18, 2020)
+  - update docs left menu
+
 ## 1.2.51 (November 18, 2020)
   - new docs page style
 
