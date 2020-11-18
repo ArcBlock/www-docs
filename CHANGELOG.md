@@ -1,3 +1,6 @@
+## 1.2.51 (November 18, 2020)
+  - new docs page style
+
 ## 1.2.50 (November 12, 2020)
   - update header
 
