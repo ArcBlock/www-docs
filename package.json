@@ -1,11 +1,11 @@
 {
   "name": "www-docs",
-  "version": "1.2.52",
+  "version": "1.2.53",
   "private": true,
   "description": "Doc site for arcblock",
   "scripts": {
     "clean": "rm -rf .cache public",
-    "start": "gatsby develop",
+    "start": "gatsby develop --host 0.0.0.0",
     "build": "yarn run clean && NODE_ENV=production GATSBY_APP_DOMAIN=docs.arcblock.io gatsby build",
     "serve": "gatsby serve"
   },
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/ArcBlock/www-docs#readme",
   "dependencies": {
-    "@arcblock/gatsby-theme-docs": "^7.28.20",
+    "@arcblock/gatsby-theme-docs": "^7.28.21",
     "dotenv": "^8.0.0",
     "gatsby": "2.24.8",
     "gatsby-plugin-netlify-cache": "^1.2.0",

@@ -77,10 +77,10 @@
     remark-containers "^1.1.0"
     remark-generic-extensions "^1.4.0"
 
-"@arcblock/gatsby-theme-docs@^7.28.20":
-  version "7.28.20"
-  resolved "https://registry.yarnpkg.com/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-7.28.20.tgz#3754f25a9125980fb590c2e4af7e5b48192a8544"
-  integrity sha512-yycKK7bnk9AJeZIsVce8j0molzXnZwdDaLf9ggJaHHrg1FQoh8RzrdAa67G5XegIZ+/WbQJBmRXSICGzZQKyyg==
+"@arcblock/gatsby-theme-docs@^7.28.21":
+  version "7.28.21"
+  resolved "https://registry.yarnpkg.com/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-7.28.21.tgz#4693b6d6fd5dcceb61a5445ac5f53304aa542b6c"
+  integrity sha512-qkqjLcfSRGgTfU3d//YC1gIc+UFcitmgmGiGo3tRCDV64TWrJFa77SPXK5GvqvM23/G0nau+rUecMkHA9qFoKA==
   dependencies:
     "@arcblock/gatsby-awesome-pagination" "^0.3.4"
     "@arcblock/gatsby-remark-extensions" "^7.27.0"
