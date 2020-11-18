@@ -19,6 +19,7 @@ module.exports = {
         official: true,
         disableI18n: false,
         showGetStarted: true,
+        defaultBanner: '/og-banner.png',
         sourceDirs: [
           path.resolve(__dirname, 'dependencies/forge-docs/src'),
           path.resolve(__dirname, 'dependencies/forge-cli-handbook/src'),
