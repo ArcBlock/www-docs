@@ -1,3 +1,6 @@
+## 1.2.53 (November 18, 2020)
+  - update docs page style for pad
+
 ## 1.2.52 (November 18, 2020)
   - update docs left menu
 
