@@ -1,0 +1,34 @@
+name: www-docs
+version: 1.2.53
+description: Doc site for arcblock
+files:
+  - public/
+  - blocklet.md
+repository:
+  type: git
+  url: 'git+https://github.com/ArcBlock/www-docs.git'
+keywords: []
+author:
+  name: wangshijun
+  email: wangshijun2010@gmail.com
+  url: 'http://github.com/wangshijun'
+license: MIT
+homepage: 'https://github.com/ArcBlock/www-docs#readme'
+title: ArcBlock Docs
+main: public
+group: static
+documentation: 'https://docs.arcblock.io'
+support: support@arcblock.io
+community: 'https://gitter.im/ArcBlock/community'
+did: z8iZyWMJewrbFxtA89Fat8mNFBkcUFDrBSo1p
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /en
+    prefix: /
+    port: BLOCKLET_PORT
+    protocol: tcp
+environments: []
+screenshots: []
+specVersion: 1.0.1
+scripts: {}
