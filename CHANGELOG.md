@@ -1,3 +1,6 @@
+## 1.2.54 (November 20, 2020)
+  - fit with latest 1.0.1 spec
+
 ## 1.2.53 (November 18, 2020)
   - update docs page style for pad
 
