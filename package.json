@@ -8,7 +8,7 @@
     "start": "gatsby develop --host 0.0.0.0",
     "build": "yarn run clean && NODE_ENV=production GATSBY_APP_DOMAIN=docs.arcblock.io gatsby build",
     "serve": "gatsby serve",
-    "deploy": "npm run build && an bundle --create-release && an deploy .blocklet/bundle --skip-hooks"
+    "deploy": "npm run build && abtnode bundle --create-release && abtnode deploy .blocklet/bundle --skip-hooks"
   },
   "files": [
     "public/",
