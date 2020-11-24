@@ -1,5 +1,5 @@
 name: www-docs
-version: 1.2.53
+version: 1.4.0
 description: Doc site for arcblock
 files:
   - public/
@@ -24,11 +24,15 @@ did: z8iZyWMJewrbFxtA89Fat8mNFBkcUFDrBSo1p
 interfaces:
   - type: web
     name: publicUrl
-    path: /en
+    path: /
     prefix: /
-    port: BLOCKLET_PORT
     protocol: tcp
+    port: BLOCKLET_PORT
 environments: []
 screenshots: []
 specVersion: 1.0.1
 scripts: {}
+timeout:
+  start: 10
+capabilities:
+  dynamicPathPrefix: true

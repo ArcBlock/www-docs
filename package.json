@@ -1,14 +1,16 @@
 {
   "name": "www-docs",
-  "version": "1.2.54",
+  "version": "1.4.0",
   "private": true,
   "description": "Doc site for arcblock",
   "scripts": {
     "clean": "rm -rf .cache public .blocklet",
     "start": "gatsby develop --host 0.0.0.0",
-    "build": "yarn run clean && NODE_ENV=production GATSBY_APP_DOMAIN=docs.arcblock.io gatsby build",
+    "build": "yarn clean && yarn build:gatsby",
+    "build:gatsby": "NODE_ENV=production GATSBY_APP_DOMAIN=docs.arcblock.io gatsby build && rm public/*.map",
     "serve": "gatsby serve",
-    "deploy": "npm run build && abtnode bundle --create-release && abtnode deploy .blocklet/bundle --skip-hooks"
+    "bundle": "an bundle --create-release",
+    "deploy": "yarn build && abtnode bundle --create-release && abtnode deploy .blocklet/bundle --skip-hooks"
   },
   "files": [
     "public/",
@@ -26,9 +28,10 @@
   },
   "homepage": "https://github.com/ArcBlock/www-docs#readme",
   "dependencies": {
-    "@arcblock/gatsby-theme-docs": "^7.28.21",
+    "@arcblock/gatsby-i18n-redirect": "^7.30.0",
+    "@arcblock/gatsby-theme-docs": "^7.30.0",
     "dotenv": "^8.0.0",
-    "gatsby": "2.24.8",
+    "gatsby": "2.27.1",
     "gatsby-plugin-netlify-cache": "^1.2.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
