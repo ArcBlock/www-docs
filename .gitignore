@@ -63,3 +63,5 @@ typings/
 public
 .DS_Store
 tmp
+
+.blocklet
