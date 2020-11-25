@@ -28,8 +28,8 @@
   },
   "homepage": "https://github.com/ArcBlock/www-docs#readme",
   "dependencies": {
-    "@arcblock/gatsby-i18n-redirect": "^7.30.0",
-    "@arcblock/gatsby-theme-docs": "^7.30.0",
+    "@arcblock/gatsby-i18n-redirect": "^7.31.1",
+    "@arcblock/gatsby-theme-docs": "^7.32.0",
     "dotenv": "^8.0.0",
     "gatsby": "2.27.1",
     "gatsby-plugin-netlify-cache": "^1.2.0",

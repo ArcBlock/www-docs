@@ -64,10 +64,10 @@
   dependencies:
     lodash "^4.17.10"
 
-"@arcblock/gatsby-i18n-redirect@^7.30.0":
-  version "7.30.0"
-  resolved "https://registry.yarnpkg.com/@arcblock/gatsby-i18n-redirect/-/gatsby-i18n-redirect-7.30.0.tgz#61cedf80b5bbdc02aa796313a59cdfabcd36d282"
-  integrity sha512-2cQ0S9EUEZkdVCRAa88i0nj9Ghob2LTGokvPh+uAGHEPOe7YMOoAS47tsl5+Wske6H/+Zik4XS/icc74s9z8ag==
+"@arcblock/gatsby-i18n-redirect@^7.31.1":
+  version "7.31.1"
+  resolved "https://registry.yarnpkg.com/@arcblock/gatsby-i18n-redirect/-/gatsby-i18n-redirect-7.31.1.tgz#97b3adefc6a8fffcb837251f4f480992d22ffbbe"
+  integrity sha512-dXKaDp75yCjet3Othhc0FjM49cWitYikQ7V19l8p5QFmh0rKdRgK9fjOMFiY+TdRTos6cWcJAZCw/xPWg+IE+Q==
 
 "@arcblock/gatsby-remark-extensions@^7.27.0":
   version "7.27.0"
@@ -82,10 +82,10 @@
     remark-containers "^1.1.0"
     remark-generic-extensions "^1.4.0"
 
-"@arcblock/gatsby-theme-docs@^7.30.0":
-  version "7.30.0"
-  resolved "https://registry.yarnpkg.com/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-7.30.0.tgz#0eb6e51011f3a0849ffbaceff0ade19fcae8bc33"
-  integrity sha512-D/csF4uvTjxA3XAe+cpyQu300VjnualzM4xgnRyEnuyDHwEiFsP98wBkblowPrEJ+3eriu8jLjuRU/y9qiGAlA==
+"@arcblock/gatsby-theme-docs@^7.32.0":
+  version "7.32.0"
+  resolved "https://registry.yarnpkg.com/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-7.32.0.tgz#27a395012795987f6d1c6b5bcbe550f38e88abd0"
+  integrity sha512-XEZNi++AgWo/drVfTz12ovXFmvVRU/taBHvngOEnxOwWqzgRb86ZnL85Y68trG0F5widn4W7u6XCxvKB+igi6A==
   dependencies:
     "@arcblock/gatsby-awesome-pagination" "^0.3.4"
     "@arcblock/gatsby-remark-extensions" "^7.27.0"
@@ -94,7 +94,7 @@
     "@arcblock/gatsby-transformer-terminal-recording" "^7.30.0"
     "@arcblock/remark-include" "^7.27.0"
     "@arcblock/ux" "^0.78.19"
-    "@arcblock/www" "^7.30.0"
+    "@arcblock/www" "^7.32.0"
     "@material-ui/core" "^4.10.2"
     "@material-ui/icons" "4.5.1"
     "@svgr/webpack" "^4.1.0"
@@ -252,10 +252,10 @@
     xterm-addon-fit "^0.2.1"
     xterm-addon-web-links "^0.2.1"
 
-"@arcblock/www@^7.30.0":
-  version "7.30.0"
-  resolved "https://registry.yarnpkg.com/@arcblock/www/-/www-7.30.0.tgz#69c25bf1315c6d3fa7a951882f98a08ce6c77080"
-  integrity sha512-ki1RHpeEMiYc/Ityi2zG/M3xmjJCNRH6163WhwiPgQeVz/YU3CSC6KJjmc5c+Izeq9G8kKCSd0jTSl4dIZaUPQ==
+"@arcblock/www@^7.32.0":
+  version "7.32.0"
+  resolved "https://registry.yarnpkg.com/@arcblock/www/-/www-7.32.0.tgz#5daa541919e003f9cfe6706b31f5b2220d953f4b"
+  integrity sha512-dglZYMK32TuDeHRDLQE4Uh4v+iApn4OjA2B0SvHGa7jEMc5Vx11cBiwV4EdpbgM3H4034rUPRd70iWSMJ9zX6w==
   dependencies:
     "@arcblock/did-connect" "^0.78.19"
     "@arcblock/did-playground" "^1.9.1"
