@@ -65,7 +65,8 @@ module.exports = {
       options: {
         languages: ['en', 'zh'],
         cookieName: 'nf_lang',
-        pathPrefix: '/'
+        pathPrefix: '/',
+        pathSuffix: '/',
       },
     },
   ],
