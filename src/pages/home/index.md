@@ -45,11 +45,11 @@ Browse the latest developer documentation including API reference, articles, and
 
 !ContentIcon[lightbulb-on](#4a4a4a){.section__icon bg=false}
 
-- [Quick Start](/docs/en/intro/quickstart)
-- [Concepts](/docs/en/intro/concepts)
-- [Installation](/docs/en/instruction/install)
-- [Configuration](/docs/en/instruction/configuration)
-- [JS SDK](/docs/en/instruction/sdk/js)
+- [Quick Start](/forge/en/intro/quickstart)
+- [Concepts](/forge/en/intro/concepts)
+- [Installation](/forge/en/instruction/install)
+- [Configuration](/forge/en/instruction/configuration)
+- [JS SDK](/forge/en/instruction/sdk/js)
 - [dApp Starters](https://github.com/ArcBlock/forge-dapp-starters){target="_blank"}
 - [GraphQLClient Example](https://github.com/ArcBlock/forge-js/tree/master/forge/graphql-client/examples){target="_blank"}
 - [GRpcClient Example](https://github.com/ArcBlock/forge-js/tree/master/forge/grpc-client/examples){target="_blank"}
@@ -64,9 +64,9 @@ Browse the latest developer documentation including API reference, articles, and
 
 !ContentIcon[laptop-code](#4a4a4a){.section__icon bg=false}
 
-- [Forge CLI](/handbook/en/)
-- [Forge Web](/docs/en/tools/forge_web)
-- [Forge Simulator](/docs/en/tools/simulator)
+- [Forge CLI](/forgecli/en/)
+- [Forge Web](/forge/en/tools/forge_web)
+- [Forge Simulator](/forge/en/tools/simulator)
 - [ABT Node](/abtnode/en)
 
 ## Release Notes {.section .section--link-list}
