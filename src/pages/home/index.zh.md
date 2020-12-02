@@ -44,11 +44,11 @@ darkHeader: false
 
 !ContentIcon[lightbulb-on](#4a4a4a){.section__icon bg=false}
 
-- [快速开始](/zh/docs/intro/quickstart)
-- [概念详解](/zh/docs/intro/concepts)
-- [安装手册](/zh/docs/instruction/install)
-- [配置文档](/zh/docs/instruction/configuration)
-- [JS SDK](/zh/docs/instruction/sdk/js)
+- [快速开始](/docs/zh/intro/quickstart)
+- [概念详解](/docs/zh/intro/concepts)
+- [安装手册](/docs/zh/instruction/install)
+- [配置文档](/docs/zh/instruction/configuration)
+- [JS SDK](/docs/zh/instruction/sdk/js)
 - [dApp 种子项目](https://github.com/ArcBlock/forge-dapp-starters){target="_blank"}
 - [GraphQLClient 示例代码](https://github.com/ArcBlock/forge-js/tree/master/forge/graphql-client/examples){target="_blank"}
 - [GRpcClient 示例代码](https://github.com/ArcBlock/forge-js/tree/master/forge/grpc-client/examples){target="_blank"}
@@ -63,10 +63,10 @@ darkHeader: false
 
 !ContentIcon[laptop-code](#4a4a4a){.section__icon bg=false}
 
-- [Forge CLI](/zh/handbook)
-- [Forge Web](/zh/docs/tools/forge_web)
-- [Forge Simulator](/zh/docs/tools/simulator)
-- [ABT Node](/zh/abtnode)
+- [Forge CLI](/handbook/zh)
+- [Forge Web](/docs/zh/tools/forge_web)
+- [Forge Simulator](/docs/zh/tools/simulator)
+- [ABT Node](/abtnode/zh)
 
 ## 发布日志 {.section .section--link-list}
 

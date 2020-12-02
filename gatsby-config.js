@@ -21,9 +21,6 @@ module.exports = {
         showGetStarted: true,
         defaultBanner: '/og-banner.png',
         sourceDirs: [
-          path.resolve(__dirname, 'dependencies/forge-docs/src'),
-          path.resolve(__dirname, 'dependencies/forge-cli-handbook/src'),
-          path.resolve(__dirname, 'dependencies/abtnode-docs/src'),
           path.resolve(__dirname, 'src', 'pages'),
         ],
         siteMetadata: {
@@ -34,7 +31,7 @@ module.exports = {
           sidebarWidth: 320,
         },
         algoliaSearch: {
-          enabled: process.env.NODE_ENV === 'production',
+          enabled: false,
           appId: process.env.GATSBY_ALGOLIA_APP_ID,
           adminKey: process.env.GATSBY_ALGOLIA_ADMIN_KEY,
           searchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
