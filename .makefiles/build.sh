@@ -17,8 +17,6 @@ git remote remove origin
 git remote add origin "https://$GIT_HUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
 git checkout master
 git pull origin master
-git submodule update --remote
-git submodule status
 
 ## 2. check for submodule status by updating dependency version files and run `git status`: DEPENDENCY_CHANGED
 echo "Check submodule status..."
@@ -64,22 +62,6 @@ if [ "$DEPENDENCY_CHANGED" = true ] && [ "$MAIN_CHANGED" = false ]; then
   echo $NEXT_VERSION > $VERSION_FILE
   echo $NEXT_VERSION > $VERSION_FOLDER/$VERSION_FILE
 fi
-
-
-## 5. update dependency version;
-VERSIONS=`git submodule status`
-echo "Persist version for dependency..."
-IFS=$'\n'
-for line in $VERSIONS
-do
-  REPO_VERSION=$(echo "$line" | awk '{print $1}' | tr -d + | tr -d -)
-  REPO_NAME=$(echo "$line" | awk '{print $2}' | awk -F/ '{print $NF}')
-  REPO_FILE=$VERSION_FOLDER/$REPO_NAME
-  echo "Persist version: $REPO_VERSION for repo $REPO_NAME to file $REPO_FILE"
-
-  touch $REPO_FILE
-  echo "$REPO_VERSION" > $REPO_FILE
-done
 
 ## 9. commit changes to files, only on master
 echo "Commit dependency and version changes..."

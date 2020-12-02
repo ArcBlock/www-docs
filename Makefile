@@ -14,7 +14,6 @@ init: install dep
 install:
 	@echo "Install software required for this repo..."
 	@npm install -g gatsby-cli yarn
-	@git submodule update --init
 
 dep:
 	@echo "Install npm dependencies required for this repo..."
